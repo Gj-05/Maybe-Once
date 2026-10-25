@@ -1,0 +1,12 @@
+﻿[
+    {
+        "path":  "E:\\spidergamedev\\OctoEarth-Simulator\\Results\\design_audit\\full_h3600\\run_mission.csv",
+        "sha256":  "D9CDA16E44B1C4BCB491CC541715E011EB8E2F6D45DF626EB4F96F25F96D3EAA",
+        "unchanged":  true
+    },
+    {
+        "path":  "E:\\spidergamedev\\OctoEarth-Simulator\\Results\\design_audit\\full_h1800\\run_mission.csv",
+        "sha256":  "12F4071C9B3954CEFC818E84C8A35123010A2596788640564A3C5D35B36E44C0",
+        "unchanged":  true
+    }
+]

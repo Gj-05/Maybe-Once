@@ -1,0 +1,74 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"success\":true,\"message\":\"Test job status retrieved.\",\"error\":null,\"data\":{\"job_id\":\"f8eb6d82c99f4e20b3320b833f8e5a4a\",\"status\":\"succeeded\",\"mode\":\"EditMode\",\"started_unix_ms\":1792898334456,\"finished_unix_ms\":1792898339139,\"last_update_unix_ms\":1792898339139,\"progress\":{\"completed\":2,\"total\":2,\"current_test_full_name\":null,\"current_test_started_unix_ms\":null,\"last_finished_test_full_name\":\"OctoEarth.Tests.MissionViewerTests.SunCentredPlaybackMovesEarthAndRetainsTimeAcrossViews\",\"last_finished_unix_ms\":1792898338971,\"stuck_suspected\":false,\"editor_is_focused\":false,\"run_in_background\":false,\"focus_nudge_attempts\":null,\"focus_nudge_limit\":null,\"focus_nudge_status\":null,\"blocked_reason\":null,\"failures_so_far\":[],\"failures_capped\":false},\"error\":null,\"result\":{\"mode\":\"EditMode\",\"summary\":{\"total\":2,\"passed\":2,\"failed\":0,\"skipped\":0,\"durationSeconds\":0.77603,\"resultState\":\"Passed\"},\"results\":[{\"name\":\"MissionPlaybackRetainsMotionAndTransfer\",\"fullName\":\"OctoEarth.Tests.CoreTests.MissionPlaybackRetainsMotionAndTransfer\",\"state\":\"Passed\",\"durationSeconds\":0.1885035,\"message\":null,\"stackTrace\":null,\"output\":\"Viewer.a Recorded 100-year orbit grows: PASS; measured=1 boolean, expected=1, error=0, tolerance=0, dt=0; \\r\\nViewer.motion Quarter-year Sun-centred Earth displacement exceeds 1 AU: PASS; measured=1 boolean, expected=1, error=0, tolerance=0, dt=0; \\r\\nViewer.heading Recorded tractor heading rotates: PASS; measured=1 boolean, expected=1, error=0, tolerance=0, dt=0; \\r\\nViewer.endpoint Exact sample endpoint retained: PASS; measured=0 m, expected=0, error=0, tolerance=0, dt=0; \\r\\nViewer.clock Time lookup reaches final timestamp: PASS; measured=3155760000 s, expected=3155760000, error=0, tolerance=0, dt=0; \\r\\n\"},{\"name\":\"SunCentredPlaybackMovesEarthAndRetainsTimeAcrossViews\",\"fullName\":\"OctoEarth.Tests.MissionViewerTests.SunCentredPlaybackMovesEarthAndRetainsTimeAcrossViews\",\"state\":\"Passed\",\"durationSeconds\":0.0837233,\"message\":null,\"stackTrace\":null,\"output\":\"CSV samples=1220; quarter-year displacement=28.52745 Unity units; 1 second at 1e9x=1e9 recorded seconds; baseline unchanged.\\r\\n\"}]}},\"hint\":null}"
+    }
+  ],
+  "structuredContent": {
+    "result": {
+      "success": true,
+      "message": "Test job status retrieved.",
+      "error": null,
+      "data": {
+        "job_id": "f8eb6d82c99f4e20b3320b833f8e5a4a",
+        "status": "succeeded",
+        "mode": "EditMode",
+        "started_unix_ms": 1792898334456,
+        "finished_unix_ms": 1792898339139,
+        "last_update_unix_ms": 1792898339139,
+        "progress": {
+          "completed": 2,
+          "total": 2,
+          "current_test_full_name": null,
+          "current_test_started_unix_ms": null,
+          "last_finished_test_full_name": "OctoEarth.Tests.MissionViewerTests.SunCentredPlaybackMovesEarthAndRetainsTimeAcrossViews",
+          "last_finished_unix_ms": 1792898338971,
+          "stuck_suspected": false,
+          "editor_is_focused": false,
+          "run_in_background": false,
+          "focus_nudge_attempts": null,
+          "focus_nudge_limit": null,
+          "focus_nudge_status": null,
+          "blocked_reason": null,
+          "failures_so_far": [],
+          "failures_capped": false
+        },
+        "error": null,
+        "result": {
+          "mode": "EditMode",
+          "summary": {
+            "total": 2,
+            "passed": 2,
+            "failed": 0,
+            "skipped": 0,
+            "durationSeconds": 0.77603,
+            "resultState": "Passed"
+          },
+          "results": [
+            {
+              "name": "MissionPlaybackRetainsMotionAndTransfer",
+              "fullName": "OctoEarth.Tests.CoreTests.MissionPlaybackRetainsMotionAndTransfer",
+              "state": "Passed",
+              "durationSeconds": 0.1885035,
+              "message": null,
+              "stackTrace": null,
+              "output": "Viewer.a Recorded 100-year orbit grows: PASS; measured=1 boolean, expected=1, error=0, tolerance=0, dt=0; \r\nViewer.motion Quarter-year Sun-centred Earth displacement exceeds 1 AU: PASS; measured=1 boolean, expected=1, error=0, tolerance=0, dt=0; \r\nViewer.heading Recorded tractor heading rotates: PASS; measured=1 boolean, expected=1, error=0, tolerance=0, dt=0; \r\nViewer.endpoint Exact sample endpoint retained: PASS; measured=0 m, expected=0, error=0, tolerance=0, dt=0; \r\nViewer.clock Time lookup reaches final timestamp: PASS; measured=3155760000 s, expected=3155760000, error=0, tolerance=0, dt=0; \r\n"
+            },
+            {
+              "name": "SunCentredPlaybackMovesEarthAndRetainsTimeAcrossViews",
+              "fullName": "OctoEarth.Tests.MissionViewerTests.SunCentredPlaybackMovesEarthAndRetainsTimeAcrossViews",
+              "state": "Passed",
+              "durationSeconds": 0.0837233,
+              "message": null,
+              "stackTrace": null,
+              "output": "CSV samples=1220; quarter-year displacement=28.52745 Unity units; 1 second at 1e9x=1e9 recorded seconds; baseline unchanged.\r\n"
+            }
+          ]
+        }
+      },
+      "hint": null
+    }
+  },
+  "isError": false
+}

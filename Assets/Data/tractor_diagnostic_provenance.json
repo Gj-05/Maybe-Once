@@ -1,0 +1,9 @@
+{
+  "source": "Results/mission_h3600_y100/run_mission.csv",
+  "embeddedCopy": "Assets/Data/tractor_diagnostic.csv",
+  "sha256": "BA1F774180E51FED57E1355415476D45652751AC152C8CDADCD43387988C4F32",
+  "samples": 1220,
+  "status": "100-year diagnostic completed; FAIL (provisional). Not G4 acceptance or a mission WIN.",
+  "display": "Exact recorded samples without orbital interpolation; double-precision Earth-to-tractor subtraction before visual conversion. Co-rotating Earth-centred display with +X toward tractor. Body/hardware enlarged as labelled. No live mission integration or physics feedback.",
+  "hardware": "Schematic asteroid and two canted station-keeping thrusters; no validated engineering design or optical capability implied."
+}

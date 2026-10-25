@@ -1,0 +1,241 @@
+{
+  "scope": "Unity MCP Play mode, recorded CSV only; final clean verification at 1920x1080",
+  "initial": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"time\":0.0,\"playing\":false,\"baseline\":false,\"moon\":true,\"source\":\"partial run: first 5460.780402 yr\\nResults/design_audit/full_h3600/run_mission.csv\",\"samples\":66491},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "time": 0,
+          "playing": false,
+          "baseline": false,
+          "moon": true,
+          "source": "partial run: first 5460.780402 yr\nResults/design_audit/full_h3600/run_mission.csv",
+          "samples": 66491
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  },
+  "advance": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"time\":1000000000.0,\"year\":31.68808781402895},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "time": 1000000000,
+          "year": 31.68808781402895
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  },
+  "moon": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"moon\":true,\"hiddenToggle\":true,\"positionErrorDisplayUnits\":0.0,\"speed\":1000000.0},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "moon": true,
+          "hiddenToggle": true,
+          "positionErrorDisplayUnits": 0,
+          "speed": 1000000
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  },
+  "endpoint": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"time\":172329123600.0,\"end\":172329123600.0,\"playing\":false,\"year\":5460.780401551448},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "time": 172329123600,
+          "end": 172329123600,
+          "playing": false,
+          "year": 5460.780401551448
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  },
+  "restart": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"time\":0.0,\"playing\":false,\"baseline\":false,\"solar\":true,\"earthPositionError\":0.0,\"thrust\":0.0,\"ejected\":0.0,\"ledgerP\":0.0,\"ledgerL\":0.0,\"ledgerE\":0.0,\"flags\":4.0,\"missingScripts\":0},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "time": 0,
+          "playing": false,
+          "baseline": false,
+          "solar": true,
+          "earthPositionError": 0,
+          "thrust": 0,
+          "ejected": 0,
+          "ledgerP": 0,
+          "ledgerL": 0,
+          "ledgerE": 0,
+          "flags": 4,
+          "missingScripts": 0
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  },
+  "demo": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"boundaryChecks\":[\"0: solar=True, moon=False, speed=10000000, playing=False, demo=True\",\"21: solar=False, moon=False, speed=10000000, playing=False, demo=True\",\"51: solar=False, moon=True, speed=1000000, playing=True, demo=True\",\"66: solar=True, moon=False, speed=1000000, playing=False, demo=True\",\"71: solar=True, moon=False, speed=1000000000, playing=True, demo=True\",\"181: solar=True, moon=False, speed=1000000000, playing=False, demo=False\"],\"finalTime\":0.0,\"playing\":false,\"baseline\":false},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "boundaryChecks": [
+            "0: solar=True, moon=False, speed=10000000, playing=False, demo=True",
+            "21: solar=False, moon=False, speed=10000000, playing=False, demo=True",
+            "51: solar=False, moon=True, speed=1000000, playing=True, demo=True",
+            "66: solar=True, moon=False, speed=1000000, playing=False, demo=True",
+            "71: solar=True, moon=False, speed=1000000000, playing=True, demo=True",
+            "181: solar=True, moon=False, speed=1000000000, playing=False, demo=False"
+          ],
+          "finalTime": 0,
+          "playing": false,
+          "baseline": false
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  },
+  "final_console": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Retrieved 0 log entries.\",\"data\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Retrieved 0 log entries.",
+      "data": []
+    },
+    "isError": false
+  },
+  "earlier_capture_tool_errors": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Retrieved 6 log entries.\",\"data\":[{\"type\":\"Error\",\"message\":\"BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (919 x 679 1AA) vs (1920 x 1080 1AA).\",\"file\":\"./Library/PackageCache/com.coplaydev.unity-mcp@4384f8b518e8/Editor/Tools/ExecuteCode.cs\",\"line\":275,\"stackTrace\":null},{\"type\":\"Error\",\"message\":\"NextSubPass: Not inside a Renderpass\",\"file\":\"./Library/PackageCache/com.coplaydev.unity-mcp@4384f8b518e8/Editor/Tools/ExecuteCode.cs\",\"line\":275,\"stackTrace\":null},{\"type\":\"Error\",\"message\":\"EndRenderPass: Not inside a Renderpass\",\"file\":\"./Library/PackageCache/com.coplaydev.unity-mcp@4384f8b518e8/Editor/Tools/ExecuteCode.cs\",\"line\":275,\"stackTrace\":null},{\"type\":\"Error\",\"message\":\"BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (919 x 679 1AA) vs (1920 x 1080 1AA).\",\"file\":\"./Library/PackageCache/com.coplaydev.unity-mcp@4384f8b518e8/Editor/Tools/ExecuteCode.cs\",\"line\":275,\"stackTrace\":null},{\"type\":\"Error\",\"message\":\"NextSubPass: Not inside a Renderpass\",\"file\":\"./Library/PackageCache/com.coplaydev.unity-mcp@4384f8b518e8/Editor/Tools/ExecuteCode.cs\",\"line\":275,\"stackTrace\":null},{\"type\":\"Error\",\"message\":\"EndRenderPass: Not inside a Renderpass\",\"file\":\"./Library/PackageCache/com.coplaydev.unity-mcp@4384f8b518e8/Editor/Tools/ExecuteCode.cs\",\"line\":275,\"stackTrace\":null}]}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Retrieved 6 log entries.",
+      "data": [
+        {
+          "type": "Error",
+          "message": "BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (919 x 679 1AA) vs (1920 x 1080 1AA).",
+          "file": "./Library/PackageCache/com.coplaydev.unity-mcp@4384f8b518e8/Editor/Tools/ExecuteCode.cs",
+          "line": 275,
+          "stackTrace": null
+        },
+        {
+          "type": "Error",
+          "message": "NextSubPass: Not inside a Renderpass",
+          "file": "./Library/PackageCache/com.coplaydev.unity-mcp@4384f8b518e8/Editor/Tools/ExecuteCode.cs",
+          "line": 275,
+          "stackTrace": null
+        },
+        {
+          "type": "Error",
+          "message": "EndRenderPass: Not inside a Renderpass",
+          "file": "./Library/PackageCache/com.coplaydev.unity-mcp@4384f8b518e8/Editor/Tools/ExecuteCode.cs",
+          "line": 275,
+          "stackTrace": null
+        },
+        {
+          "type": "Error",
+          "message": "BlitFinalToBackBuffer/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 0 do not match RenderPass specifications (919 x 679 1AA) vs (1920 x 1080 1AA).",
+          "file": "./Library/PackageCache/com.coplaydev.unity-mcp@4384f8b518e8/Editor/Tools/ExecuteCode.cs",
+          "line": 275,
+          "stackTrace": null
+        },
+        {
+          "type": "Error",
+          "message": "NextSubPass: Not inside a Renderpass",
+          "file": "./Library/PackageCache/com.coplaydev.unity-mcp@4384f8b518e8/Editor/Tools/ExecuteCode.cs",
+          "line": 275,
+          "stackTrace": null
+        },
+        {
+          "type": "Error",
+          "message": "EndRenderPass: Not inside a Renderpass",
+          "file": "./Library/PackageCache/com.coplaydev.unity-mcp@4384f8b518e8/Editor/Tools/ExecuteCode.cs",
+          "line": 275,
+          "stackTrace": null
+        }
+      ]
+    },
+    "isError": false
+  },
+  "capture_note": "Earlier direct Camera.Render calls caused six render-pass/backbuffer dimension errors. Those were saved here, the Play session restarted, and all final captures were repeated with Unity MCP manage_camera screenshot. Final clean session had zero Console errors. No viewer source workaround or physics change was made.",
+  "demo_note": "Boundary checks used an adjusted demo start clock, not a full wall-clock three-minute rehearsal. Keyboard hardware presses were not tested. At 1e9x, the 110-second final tour segment cannot cover the full 5460.780402-year prefix.",
+  "screenshots": [
+    "Captures/PresentationVerified/t0.png",
+    "Captures/PresentationVerified/one_sim_second.png",
+    "Captures/PresentationVerified/one_wall_second.png",
+    "Captures/PresentationVerified/middle.png",
+    "Captures/PresentationVerified/earth_tractor.png",
+    "Captures/PresentationVerified/moon.png",
+    "Captures/PresentationVerified/endpoint.png"
+  ],
+  "tests": [
+    "Results/presentation_editmode_tests.json",
+    "Results/presentation_viewer_regression.json"
+  ],
+  "unchanged_inputs": [
+    "Results/presentation_prefix_hashes.json",
+    "Results/presentation_frozen_hashes.json"
+  ],
+  "final_editor": "Stopped after Restart; no playback, baseline or mission job running"
+}

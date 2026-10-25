@@ -1,0 +1,49 @@
+# Unity-generated caches and local settings
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uild/
+/[Bb]uilds/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# IDE-generated project files
+/.vs/
+/.idea/
+/*.csproj
+/*.sln
+/*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.opendb
+*.VC.db
+
+# Standalone .NET build products
+**/bin/
+**/obj/
+/Tools/Headless*/
+/pitch_outputs/build/
+
+# Local credentials and machine configuration
+.env
+.env.*
+!.env.example
+/.aws/
+/.codex/
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+
+# LaTeX intermediate files
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.out

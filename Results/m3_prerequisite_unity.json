@@ -1,0 +1,296 @@
+{
+  "job_id": "a849e8b2855d44c0a22b2e7f43b01e66",
+  "status": "failed",
+  "mode": "EditMode",
+  "started_unix_ms": 1792877392693,
+  "finished_unix_ms": 1792877407712,
+  "last_update_unix_ms": 1792877407712,
+  "progress": {
+    "completed": 28,
+    "total": 28,
+    "current_test_full_name": null,
+    "current_test_started_unix_ms": null,
+    "last_finished_test_full_name": "OctoEarth.Tests.OrbitalTests.ZeroThrustStaysNearOneAU",
+    "last_finished_unix_ms": 1792877407459,
+    "stuck_suspected": false,
+    "editor_is_focused": false,
+    "run_in_background": false,
+    "focus_nudge_attempts": null,
+    "focus_nudge_limit": null,
+    "focus_nudge_status": null,
+    "blocked_reason": null,
+    "failures_so_far": [
+      {
+        "full_name": "OctoEarth.Tests.CoreTests.MissionBudgetReference",
+        "message": "  X9.F Mission budget average force: FAIL; measured=2.2332007983172931E+17 N, expected=2.2E+17, error=3320079831729312, tolerance=2.2E+15, dt=0; R3 rounded expected retained even if 1% comparison fails\r\n  Expected: True\r\n  But was:  False\r\n"
+      }
+    ],
+    "failures_capped": false
+  },
+  "error": null,
+  "result": {
+    "mode": "EditMode",
+    "summary": {
+      "total": 28,
+      "passed": 27,
+      "failed": 1,
+      "skipped": 0,
+      "durationSeconds": 10.0276191,
+      "resultState": "Failed(Child)"
+    },
+    "results": [
+      {
+        "name": "B10Temperature",
+        "fullName": "OctoEarth.Tests.CoreTests.B10Temperature",
+        "state": "Passed",
+        "durationSeconds": 0.0195426,
+        "message": null,
+        "stackTrace": null,
+        "output": "B10 Earth radiative equilibrium: PASS; measured=254.03862058145481 K, expected=254, error=0.038620581454807734, tolerance=2, dt=0; \r\n"
+      },
+      {
+        "name": "B1Wire",
+        "fullName": "OctoEarth.Tests.CoreTests.B1Wire",
+        "state": "Passed",
+        "durationSeconds": 0.0007173,
+        "message": null,
+        "stackTrace": null,
+        "output": "B1 Wire vector error: PASS; measured=0 N, expected=0, error=0, tolerance=1E-08, dt=0; \r\n"
+      },
+      {
+        "name": "B2ClosedLoop",
+        "fullName": "OctoEarth.Tests.CoreTests.B2ClosedLoop",
+        "state": "Passed",
+        "durationSeconds": 0.0007707,
+        "message": null,
+        "stackTrace": null,
+        "output": "B2 Closed loop net force: PASS; measured=0 N, expected=0, error=0, tolerance=5E-08, dt=0; Tolerance = 1e-9 of I*perimeter*B\r\n"
+      },
+      {
+        "name": "B3LongWire",
+        "fullName": "OctoEarth.Tests.CoreTests.B3LongWire",
+        "state": "Passed",
+        "durationSeconds": 0.0003583,
+        "message": null,
+        "stackTrace": null,
+        "output": "B3 Long wire field: PASS; measured=0.0002 T, expected=0.0002, error=0, tolerance=2E-10, dt=0; 1e-6 relative (stricter than absolute interpretation)\r\n"
+      },
+      {
+        "name": "B4EccentricKepler",
+        "fullName": "OctoEarth.Tests.CoreTests.B4EccentricKepler",
+        "state": "Passed",
+        "durationSeconds": 0.456207,
+        "message": null,
+        "stackTrace": null,
+        "output": "B4.position Eccentric Kepler return, 10 periods: PASS; measured=2.5060734130426048E-11 a, expected=0, error=2.5060734130426048E-11, tolerance=1E-06, dt=1577.9098009120539; \r\nB4.energy Eccentric Kepler energy: PASS; measured=3.28685337165563E-13 relative, expected=0, error=3.28685337165563E-13, tolerance=1E-09, dt=1577.9098009120539; \r\n"
+      },
+      {
+        "name": "B5SolarSystem",
+        "fullName": "OctoEarth.Tests.CoreTests.B5SolarSystem",
+        "state": "Passed",
+        "durationSeconds": 1.9542769,
+        "message": null,
+        "stackTrace": null,
+        "output": "B5 Full solar system 5yr max energy drift: PASS; measured=9.56588407853746E-14 relative, expected=0, error=9.56588407853746E-14, tolerance=1E-09, dt=3600; Sun+8 planets+Moon; approximate J2000; reduced dt only if necessary\r\nB5.P Full system max momentum drift: PASS; measured=8.95185280010703E-15 initial gross momentum, expected=0, error=8.95185280010703E-15, tolerance=1E-11, dt=3600; \r\nB5.L Full system max angular momentum drift: PASS; measured=3.2442493698991597E-14 relative, expected=0, error=3.2442493698991597E-14, tolerance=1E-11, dt=3600; \r\n"
+      },
+      {
+        "name": "B6BarycenterPeriod",
+        "fullName": "OctoEarth.Tests.CoreTests.B6BarycenterPeriod",
+        "state": "Passed",
+        "durationSeconds": 0.3901621,
+        "message": null,
+        "stackTrace": null,
+        "output": "B6 N-body EMB sidereal period: PASS; measured=365.26024505893372 days, expected=365.256, error=0.004245058933747714, tolerance=0.1, dt=3600; \r\n"
+      },
+      {
+        "name": "B7Hohmann",
+        "fullName": "OctoEarth.Tests.CoreTests.B7Hohmann",
+        "state": "Passed",
+        "durationSeconds": 0.0235168,
+        "message": null,
+        "stackTrace": null,
+        "output": "B7.dv1 Hohmann departure: PASS; measured=2.9460551625085643 km/s, expected=2.94, error=0.0060551625085643046, tolerance=0.02, dt=0; \r\nB7.dv2 Hohmann arrival: PASS; measured=2.6499820804508647 km/s, expected=2.65, error=1.7919549135214652E-05, tolerance=0.02, dt=0; \r\nB7.time Hohmann flight time: PASS; measured=258.91515023356789 days, expected=259, error=0.084849766432114393, tolerance=2, dt=0; \r\nB7.simulatedRadius Simulated two-burn arrival radius: PASS; measured=5.9952043329758453E-15 relative, expected=0, error=5.9952043329758453E-15, tolerance=1E-08, dt=2237.0268980180263; \r\nB7.simulatedBurn Simulated arrival burn: PASS; measured=2.6499820804508962 km/s, expected=2.65, error=1.7919549103684318E-05, tolerance=0.02, dt=2237.0268980180263; \r\nB7.circular Post-burn eccentricity: PASS; measured=1.583067659490474E-14 dimensionless, expected=0, error=1.583067659490474E-14, tolerance=1E-08, dt=2237.0268980180263; \r\n"
+      },
+      {
+        "name": "B8SmallPush",
+        "fullName": "OctoEarth.Tests.CoreTests.B8SmallPush",
+        "state": "Passed",
+        "durationSeconds": 0.0295831,
+        "message": null,
+        "stackTrace": null,
+        "output": "B8 Prograde push semi-major growth: PASS; measured=3170.1014833984377 km, expected=3170, error=0.10148339843772192, tolerance=31.7, dt=3600; Reference 1% unchanged\r\nB8.Gauss Integrated Gauss versus state delta-a: PASS; measured=3.4086034802729838E-10 relative, expected=0, error=3.4086034802729838E-10, tolerance=0.01, dt=3600; \r\n"
+      },
+      {
+        "name": "B9Cantilever",
+        "fullName": "OctoEarth.Tests.CoreTests.B9Cantilever",
+        "state": "Passed",
+        "durationSeconds": 0.0009178,
+        "message": null,
+        "stackTrace": null,
+        "output": "B9.moment Cantilever root moment: PASS; measured=5000 N m, expected=5000, error=0, tolerance=50, dt=0; \r\nB9.deflection Cantilever tip deflection: PASS; measured=0.0062499999999999995 m, expected=0.00625, error=8.6736173798840355E-19, tolerance=6.25E-05, dt=0; \r\n"
+      },
+      {
+        "name": "CircularAndKeplerScaling",
+        "fullName": "OctoEarth.Tests.CoreTests.CircularAndKeplerScaling",
+        "state": "Passed",
+        "durationSeconds": 0.0462308,
+        "message": null,
+        "stackTrace": null,
+        "output": "X1 Circular full-period return: PASS; measured=5.2903354655572811E-14 AU, expected=0, error=5.2903354655572811E-14, tolerance=1E-09, dt=1577.9098009120539; \r\nX2 Kepler period squared ratio: PASS; measured=19.683000000000003 dimensionless, expected=19.683000000000003, error=0, tolerance=1E-12, dt=0; \r\n"
+      },
+      {
+        "name": "ClockControls",
+        "fullName": "OctoEarth.Tests.CoreTests.ClockControls",
+        "state": "Passed",
+        "durationSeconds": 0.0009398,
+        "message": null,
+        "stackTrace": null,
+        "output": "X.clock Scheduler cap pause resume reset: PASS; measured=1 boolean, expected=1, error=0, tolerance=0, dt=0; \r\nX.softening Softened-force consistent energy ledger: PASS; measured=3.3930953475924023E-15 relative, expected=0, error=3.3930953475924023E-15, tolerance=1E-09, dt=3600; Plummer potential uses same softening as gravity\r\n"
+      },
+      {
+        "name": "EjectaRocketAndLedger",
+        "fullName": "OctoEarth.Tests.CoreTests.EjectaRocketAndLedger",
+        "state": "Passed",
+        "durationSeconds": 0.0025337,
+        "message": null,
+        "stackTrace": null,
+        "output": "X5.rocket Finite burn rocket equation: PASS; measured=0.10005003335834001 m/s, expected=0.10005003335834001, error=0, tolerance=1.0005003335834001E-10, dt=0; \r\nX5.momentum Rocket booked momentum closure: PASS; measured=1.3358203432289883E-12 relative, expected=0, error=1.3358203432289883E-12, tolerance=1E-09, dt=0; \r\nX5.energy Rocket energy closure: PASS; measured=1.6895430964416829E-13 relative, expected=0, error=1.6895430964416829E-13, tolerance=1E-09, dt=0; \r\nX5.reaction Rocket impulse reaction closure: PASS; measured=1.3364888104939896E-13 relative, expected=0, error=1.3364888104939896E-13, tolerance=1E-09, dt=0; \r\nX5.sourceP Replenished source/ejecta P closure: PASS; measured=8.8774505621021307E-17 relative, expected=0, error=8.8774505621021307E-17, tolerance=1E-09, dt=0; \r\nX5.sourceE Replenished energy input closure: PASS; measured=0 relative, expected=0, error=0, tolerance=1E-09, dt=0; \r\nX5.sourceL Replenished angular closure: PASS; measured=3.7895612573872012E-16 relative, expected=0, error=3.7895612573872012E-16, tolerance=1E-09, dt=0; \r\nX5.force Applied force/body impulse closure: PASS; measured=0 relative, expected=0, error=0, tolerance=1E-09, dt=0; \r\n"
+      },
+      {
+        "name": "EnckeAndFloatPrecision",
+        "fullName": "OctoEarth.Tests.CoreTests.EnckeAndFloatPrecision",
+        "state": "Passed",
+        "durationSeconds": 0.019459,
+        "message": null,
+        "stackTrace": null,
+        "output": "X7 Encke versus double push displacement: PASS; measured=0.00039119503667109368 m, expected=0, error=0.00039119503667109368, tolerance=0.05, dt=60; 60s RK4 deviation vs double split Yoshida; independent gravity representations\r\nX7.reference Unforced Encke deviation: PASS; measured=0 m, expected=0, error=0, tolerance=1E-20, dt=60; \r\nX8.float Float loses day-long tiny push: PASS; measured=0 m, expected=0, error=0, tolerance=0, dt=60; Float push/control updates identical at this dt\r\nX8.double Double retains tiny push: PASS; measured=37.323540811180287 m, expected=37.323572917982084, error=3.2106801796771833E-05, tolerance=0.05, dt=60; This row expects nonzero displacement; pass is computed below\r\n"
+      },
+      {
+        "name": "IntegratorConvergence",
+        "fullName": "OctoEarth.Tests.CoreTests.IntegratorConvergence",
+        "state": "Passed",
+        "durationSeconds": 0.0065412,
+        "message": null,
+        "stackTrace": null,
+        "output": "X6.Yoshida4.h100 Analytic endpoint error: PASS; measured=0.00040863741303507961 AU, expected=0, error=0.00040863741303507961, tolerance=1, dt=315581.96018241078; Order fit sample, not a precision acceptance bound\r\nX6.Yoshida4.h200 Analytic endpoint error: PASS; measured=2.562026595836706E-05 AU, expected=0, error=2.562026595836706E-05, tolerance=1, dt=157790.98009120539; Order fit sample, not a precision acceptance bound\r\nX6.Yoshida4.difference200 h versus h/2 endpoint difference: PASS; measured=0.00038301714808081777 AU, expected=0, error=0.00038301714808081777, tolerance=1, dt=157790.98009120539; Convergence sample\r\nX6.Yoshida4.h400 Analytic endpoint error: PASS; measured=1.6024423543647646E-06 AU, expected=0, error=1.6024423543647646E-06, tolerance=1, dt=78895.4900456027; Order fit sample, not a precision acceptance bound\r\nX6.Yoshida4.difference400 h versus h/2 endpoint difference: PASS; measured=2.4017823604249305E-05 AU, expected=0, error=2.4017823604249305E-05, tolerance=1, dt=78895.4900456027; Convergence sample\r\nX6.Yoshida4.h800 Analytic endpoint error: PASS; measured=1.0017059648855532E-07 AU, expected=0, error=1.0017059648855532E-07, tolerance=1, dt=39447.745022801348; Order fit sample, not a precision acceptance bound\r\nX6.Yoshida4.difference800 h versus h/2 endpoint difference: PASS; measured=1.5022717578762818E-06 AU, expected=0, error=1.5022717578762818E-06, tolerance=1, dt=39447.745022801348; Convergence sample\r\nX6.Yoshida4 Observed log-log order: PASS; measured=3.9981380562450193 order, expected=4, error=0.0018619437549807216, tolerance=0.2, dt=0; \r\nX6.VelocityVerlet.h100 Analytic endpoint error: PASS; measured=0.03262411752254607 AU, expected=0, error=0.03262411752254607, tolerance=1, dt=315581.96018241078; Order fit sample, not a precision acceptance bound\r\nX6.VelocityVerlet.h200 Analytic endpoint error: PASS; measured=0.0081188305186073537 AU, expected=0, error=0.0081188305186073537, tolerance=1, dt=157790.98009120539; Order fit sample, not a precision acceptance bound\r\nX6.VelocityVerlet.difference200 h versus h/2 endpoint difference: PASS; measured=0.024506464241130677 AU, expected=0, error=0.024506464241130677, tolerance=1, dt=157790.98009120539; Convergence sample\r\nX6.VelocityVerlet.h400 Analytic endpoint error: PASS; measured=0.0020273681692827335 AU, expected=0, error=0.0020273681692827335, tolerance=1, dt=78895.4900456027; Order fit sample, not a precision acceptance bound\r\nX6.VelocityVerlet.difference400 h versus h/2 endpoint difference: PASS; measured=0.0060914806073514988 AU, expected=0, error=0.0060914806073514988, tolerance=1, dt=78895.4900456027; Convergence sample\r\nX6.VelocityVerlet.h800 Analytic endpoint error: PASS; measured=0.00050669560863653856 AU, expected=0, error=0.00050669560863653856, tolerance=1, dt=39447.745022801348; Order fit sample, not a precision acceptance bound\r\nX6.VelocityVerlet.difference800 h versus h/2 endpoint difference: PASS; measured=0.0015206728453950504 AU, expected=0, error=0.0015206728453950504, tolerance=1, dt=39447.745022801348; Convergence sample\r\nX6.VelocityVerlet Observed log-log order: PASS; measured=2.0027691048360627 order, expected=2, error=0.0027691048360627413, tolerance=0.12, dt=0; \r\n"
+      },
+      {
+        "name": "KeplerRoundTrip",
+        "fullName": "OctoEarth.Tests.CoreTests.KeplerRoundTrip",
+        "state": "Passed",
+        "durationSeconds": 0.0003073,
+        "message": null,
+        "stackTrace": null,
+        "output": "X.kepler Elements-state roundtrip: PASS; measured=3.0599611460579433E-16 AU, expected=0, error=3.0599611460579433E-16, tolerance=1E-12, dt=0; \r\n"
+      },
+      {
+        "name": "MissionBudgetReference",
+        "fullName": "OctoEarth.Tests.CoreTests.MissionBudgetReference",
+        "state": "Failed",
+        "durationSeconds": 0.0085587,
+        "message": "  X9.F Mission budget average force: FAIL; measured=2.2332007983172931E+17 N, expected=2.2E+17, error=3320079831729312, tolerance=2.2E+15, dt=0; R3 rounded expected retained even if 1% comparison fails\r\n  Expected: True\r\n  But was:  False\r\n",
+        "stackTrace": "at OctoEarth.Tests.CoreTests.Check (System.Collections.Generic.List`1[T] rows) [0x00017] in E:\\spidergamedev\\OctoEarth-Simulator\\Assets\\Tests\\EditMode\\CoreTests.cs:24\r\nat OctoEarth.Tests.CoreTests.MissionBudgetReference () [0x00000] in E:\\spidergamedev\\OctoEarth-Simulator\\Assets\\Tests\\EditMode\\CoreTests.cs:42\r\n",
+        "output": "X9.E Mission budget delta E: PASS; measured=1.6882536167514338E+33 J, expected=1.69E+33, error=1.7463832485662422E+30, tolerance=1.69E+31, dt=0; \r\nX9.dv Mission budget delta v: PASS; measured=11.658305626629909 km/s, expected=11.66, error=0.0016943733700909291, tolerance=0.1166, dt=0; \r\nX9.p Mission budget impulse: PASS; measured=7.0474457512977811E+28 N s, expected=7.05E+28, error=2.5542487022188258E+25, tolerance=7.05E+26, dt=0; \r\nX9.F Mission budget average force: FAIL; measured=2.2332007983172931E+17 N, expected=2.2E+17, error=3320079831729312, tolerance=2.2E+15, dt=0; R3 rounded expected retained even if 1% comparison fails\r\n"
+      },
+      {
+        "name": "MoonBoundTenYears",
+        "fullName": "OctoEarth.Tests.CoreTests.MoonBoundTenYears",
+        "state": "Passed",
+        "durationSeconds": 6.333275,
+        "message": null,
+        "stackTrace": null,
+        "output": "X10 Moon bound over 10yr including planets: PASS; measured=1 boolean, expected=1, error=0, tolerance=0, dt=3600; maximum lunar distance m=399629670.95633554\r\n"
+      },
+      {
+        "name": "PhotonBooking",
+        "fullName": "OctoEarth.Tests.CoreTests.PhotonBooking",
+        "state": "Passed",
+        "durationSeconds": 0.0006218,
+        "message": null,
+        "stackTrace": null,
+        "output": "X.photon Photon sink angular booking: PASS; measured=0 kg m2/s, expected=0, error=0, tolerance=1E-15, dt=0; \r\n"
+      },
+      {
+        "name": "ResetAndDeterminism",
+        "fullName": "OctoEarth.Tests.CoreTests.ResetAndDeterminism",
+        "state": "Passed",
+        "durationSeconds": 0.0213032,
+        "message": null,
+        "stackTrace": null,
+        "output": "X11 Reset and bitwise determinism: PASS; measured=1 boolean, expected=1, error=0, tolerance=0, dt=0; \r\nX11.forceReset Stateful force reset and determinism: PASS; measured=1 boolean, expected=1, error=0, tolerance=0, dt=0; \r\n"
+      },
+      {
+        "name": "AngularMomentumConservation",
+        "fullName": "OctoEarth.Tests.OrbitalTests.AngularMomentumConservation",
+        "state": "Passed",
+        "durationSeconds": 0.0321885,
+        "message": null,
+        "stackTrace": null,
+        "output": "10 orbits: max relative energy=1.2456717395734752E-13; max relative h=3.265460766563085E-14; max radial error AU=2.5686827020976466E-07\r\n"
+      },
+      {
+        "name": "CircularInitialization",
+        "fullName": "OctoEarth.Tests.OrbitalTests.CircularInitialization",
+        "state": "Passed",
+        "durationSeconds": 0.0079343,
+        "message": null,
+        "stackTrace": null,
+        "output": "v0=29784.69183427775 m/s; e=1.1102230246251565E-16\r\n"
+      },
+      {
+        "name": "EnergyConservation",
+        "fullName": "OctoEarth.Tests.OrbitalTests.EnergyConservation",
+        "state": "Passed",
+        "durationSeconds": 0.03126,
+        "message": null,
+        "stackTrace": null,
+        "output": "10 orbits: max relative energy=1.2456717395734752E-13; max relative h=3.265460766563085E-14; max radial error AU=2.5686827020976466E-07\r\n"
+      },
+      {
+        "name": "ResetRestoresExactState",
+        "fullName": "OctoEarth.Tests.OrbitalTests.ResetRestoresExactState",
+        "state": "Passed",
+        "durationSeconds": 0.0013728,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "SiderealYearPeriod",
+        "fullName": "OctoEarth.Tests.OrbitalTests.SiderealYearPeriod",
+        "state": "Passed",
+        "durationSeconds": 0.0059361,
+        "message": null,
+        "stackTrace": null,
+        "output": "measured period=365.2569608762015 d; analytic=365.25689832762095 d; relative error=1.7124544626767602E-07\r\n"
+      },
+      {
+        "name": "TimestepConvergesAgainstAnalyticOrbit",
+        "fullName": "OctoEarth.Tests.OrbitalTests.TimestepConvergesAgainstAnalyticOrbit",
+        "state": "Passed",
+        "durationSeconds": 0.0111774,
+        "message": null,
+        "stackTrace": null,
+        "output": "analytic endpoint error: dt3600=1.0759771015077251E-06 AU; dt1800=2.6899430846955429E-07 AU; ratio=3.9999995079059745\r\n"
+      },
+      {
+        "name": "VectorOperationsAndInvalidSteps",
+        "fullName": "OctoEarth.Tests.OrbitalTests.VectorOperationsAndInvalidSteps",
+        "state": "Passed",
+        "durationSeconds": 0.0077465,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "ZeroThrustStaysNearOneAU",
+        "fullName": "OctoEarth.Tests.OrbitalTests.ZeroThrustStaysNearOneAU",
+        "state": "Passed",
+        "durationSeconds": 0.0537805,
+        "message": null,
+        "stackTrace": null,
+        "output": "10 orbits: max relative energy=1.2456717395734752E-13; max relative h=3.265460766563085E-14; max radial error AU=2.5686827020976466E-07\r\n"
+      }
+    ]
+  }
+}

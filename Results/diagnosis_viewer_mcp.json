@@ -1,0 +1,28 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"Source\":\"Results/mission_h3600_y10000/run_mission.csv\",\"Samples\":97498,\"QuarterYearDisplacementUnits\":28.52745,\"LocalTractorPosition\":\"(1.58, 0.00, -7.84)\",\"ViewSwitchPreservedTime\":true,\"OneSecondAt1e9x\":1000000000.0,\"SameEarth\":true,\"BaselineStateUnchanged\":true,\"BaselineRunning\":false,\"Error\":null},\"compiler\":\"codedom\"}}"
+    }
+  ],
+  "structuredContent": {
+    "success": true,
+    "message": "Code executed successfully.",
+    "data": {
+      "result": {
+        "Source": "Results/mission_h3600_y10000/run_mission.csv",
+        "Samples": 97498,
+        "QuarterYearDisplacementUnits": 28.52745,
+        "LocalTractorPosition": "(1.58, 0.00, -7.84)",
+        "ViewSwitchPreservedTime": true,
+        "OneSecondAt1e9x": 1000000000,
+        "SameEarth": true,
+        "BaselineStateUnchanged": true,
+        "BaselineRunning": false,
+        "Error": null
+      },
+      "compiler": "codedom"
+    }
+  },
+  "isError": false
+}

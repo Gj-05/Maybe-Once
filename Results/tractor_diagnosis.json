@@ -1,0 +1,307 @@
+{
+    "epochSource":  "Results/diagnosis_checkpoints/run_mission.csv",
+    "endSource":  "Results/mission_h3600_y10000/run_mission.csv",
+    "epochs":  [
+                   {
+                       "timeSeconds":  0,
+                       "year":  0,
+                       "aEarthAU":  1.0001682524728859,
+                       "aEmbAU":  1.0000026099999995,
+                       "thrustN":  0,
+                       "mdotKgPerSecond":  0,
+                       "totalEjectedKg":  0,
+                       "tractorEjectedKg":  0,
+                       "tractorMassKg":  1.6104890014987876E+18,
+                       "tractorDistanceMetres":  50000000.000001147,
+                       "earthTractorAccelerationAlongVelocity":  4.29955434580567E-08,
+                       "tractorContributionDaDtAUPerYear":  9.153323248632123E-05,
+                       "momentumError":  0,
+                       "angularMomentumError":  0,
+                       "energyError":  0,
+                       "flagCount":  4
+                   },
+                   {
+                       "timeSeconds":  31557600,
+                       "year":  1,
+                       "aEarthAU":  0.99952256690996111,
+                       "aEmbAU":  1.0001113716402221,
+                       "thrustN":  2.5493888010044074E+17,
+                       "mdotKgPerSecond":  937646436626.175,
+                       "totalEjectedKg":  2.9653628167108534E+19,
+                       "tractorEjectedKg":  2.95901455923214E+19,
+                       "tractorMassKg":  1.6104890014987876E+18,
+                       "tractorDistanceMetres":  49999999.992722817,
+                       "earthTractorAccelerationAlongVelocity":  4.2995544762242028E-08,
+                       "tractorContributionDaDtAUPerYear":  9.1548548094746751E-05,
+                       "momentumError":  1.7407743506488991E-14,
+                       "angularMomentumError":  1.8194512702927457E-14,
+                       "energyError":  1.3623009960666938E-13,
+                       "flagCount":  6
+                   },
+                   {
+                       "timeSeconds":  315576000,
+                       "year":  10,
+                       "aEarthAU":  1.0002288929813936,
+                       "aEmbAU":  1.0008863308722027,
+                       "thrustN":  2.5494137924890989E+17,
+                       "mdotKgPerSecond":  937655628310.29858,
+                       "totalEjectedKg":  2.9653638629928606E+20,
+                       "tractorEjectedKg":  2.95901546115597E+20,
+                       "tractorMassKg":  1.6104890014987876E+18,
+                       "tractorDistanceMetres":  49999999.992636822,
+                       "earthTractorAccelerationAlongVelocity":  4.2995545179891157E-08,
+                       "tractorContributionDaDtAUPerYear":  9.1616272516136351E-05,
+                       "momentumError":  3.1260393858467495E-14,
+                       "angularMomentumError":  5.3961871933712134E-14,
+                       "energyError":  2.2630573923730871E-13,
+                       "flagCount":  6
+                   },
+                   {
+                       "timeSeconds":  3155760000,
+                       "year":  100,
+                       "aEarthAU":  1.0096261096394679,
+                       "aEmbAU":  1.0090006029013507,
+                       "thrustN":  2.549423256744633E+17,
+                       "mdotKgPerSecond":  937659109193.82385,
+                       "totalEjectedKg":  2.9653641531952726E+21,
+                       "tractorEjectedKg":  2.9590153791886653E+21,
+                       "tractorMassKg":  1.6104890014987876E+18,
+                       "tractorDistanceMetres":  49999999.993114978,
+                       "earthTractorAccelerationAlongVelocity":  4.2995545157453135E-08,
+                       "tractorContributionDaDtAUPerYear":  9.0532298703914041E-05,
+                       "momentumError":  6.5410253295474991E-14,
+                       "angularMomentumError":  1.4858070546906611E-13,
+                       "energyError":  3.0800657766262E-13,
+                       "flagCount":  10
+                   },
+                   {
+                       "timeSeconds":  31557600000,
+                       "year":  1000,
+                       "aEarthAU":  1.0948083189917728,
+                       "aEmbAU":  1.0957379365713613,
+                       "thrustN":  2.5494708126339286E+17,
+                       "mdotKgPerSecond":  937676599899.879,
+                       "totalEjectedKg":  2.9653643379263043E+22,
+                       "tractorEjectedKg":  2.9590153375224923E+22,
+                       "tractorMassKg":  1.6104890014987876E+18,
+                       "tractorDistanceMetres":  49999999.994391032,
+                       "earthTractorAccelerationAlongVelocity":  4.2995546396307761E-08,
+                       "tractorContributionDaDtAUPerYear":  0.00010455519414618091,
+                       "momentumError":  1.8738600670650064E-13,
+                       "angularMomentumError":  3.8336466134879234E-13,
+                       "energyError":  6.89525299238675E-13,
+                       "flagCount":  11
+                   }
+               ],
+    "lastRecorded":  {
+                         "timeSeconds":  315576000000,
+                         "year":  10000,
+                         "aEarthAU":  2.7021827333735544,
+                         "aEmbAU":  2.6991380366438422,
+                         "thrustN":  2.5493815725049053E+17,
+                         "mdotKgPerSecond":  937643778037.26245,
+                         "totalEjectedKg":  2.965363210899224E+23,
+                         "tractorEjectedKg":  null,
+                         "tractorMassKg":  1.6104890014987876E+18,
+                         "tractorDistanceMetres":  49999999.99972339,
+                         "earthTractorAccelerationAlongVelocity":  -5.8145963906415787E-10,
+                         "tractorContributionDaDtAUPerYear":  null,
+                         "momentumError":  6.2349821292542488E-13,
+                         "angularMomentumError":  1.1280453487679633E-12,
+                         "energyError":  7.55742060768802E-12,
+                         "flagCount":  14
+                     },
+    "missionSummary":  {
+                           "angularError":  1.1280453487679633E-12,
+                           "completed":  true,
+                           "conditions":  [
+                                              {
+                                                  "description":  "Target orbit reached within 10000 years",
+                                                  "id":  "target",
+                                                  "passed":  true,
+                                                  "value":  "targetTime_s=275882090400; final a/AU=2.699138036643842"
+                                              },
+                                              {
+                                                  "description":  "All placeholder planetary safety thresholds throughout run",
+                                                  "id":  "safe",
+                                                  "passed":  false,
+                                                  "value":  "temperature=288..291.81176481764356 K; MoonBound=True"
+                                              },
+                                              {
+                                                  "description":  "Every modeled structural factor \u003e=1.5",
+                                                  "id":  "structure",
+                                                  "passed":  false,
+                                                  "value":  "min factor=0.09209717940210621"
+                                              },
+                                              {
+                                                  "description":  "Applicable M1/M2 benchmarks pass",
+                                                  "id":  "benchmarks",
+                                                  "passed":  true,
+                                                  "value":  "recorded passing suite"
+                                              },
+                                              {
+                                                  "description":  "Mechanical, reaction and solar-energy budgets close",
+                                                  "id":  "conservation",
+                                                  "passed":  true,
+                                                  "value":  "P=6.234982129254249E-13; L=1.1280453487679633E-12; E=7.55742060768802E-12; solar=1.5317453390610187E-16"
+                                              },
+                                              {
+                                                  "description":  "No unresolved non-enabler flags",
+                                                  "id":  "flags",
+                                                  "passed":  false,
+                                                  "value":  "flag count=14"
+                                              }
+                                          ],
+                           "config":  {
+                                          "ArrayCoMoving":  false,
+                                          "ArrayDensity":  0.01,
+                                          "ArrayEfficiency":  0.3,
+                                          "ArrayInclinationDegrees":  10,
+                                          "ArrayPhaseDegrees":  0,
+                                          "ArrayRadiusAU":  1,
+                                          "ArrayReflectivity":  0.1,
+                                          "CantDegrees":  25,
+                                          "DeliveryRate":  10000000000000,
+                                          "Distance":  50000000,
+                                          "Dt":  3600,
+                                          "EnableMirror":  true,
+                                          "ExclusionRadii":  3,
+                                          "ExhaustSpeed":  300000,
+                                          "InitialTemperature":  288,
+                                          "MaterialCap":  3E+23,
+                                          "MaxArrayArea":  1E+21,
+                                          "MaxMirrorArea":  1E+17,
+                                          "MirrorDeflectionDegrees":  30,
+                                          "MirrorDensity":  0.001,
+                                          "MirrorDistance":  1000000000,
+                                          "MirrorReflectivity":  0.95,
+                                          "MixedLayerDepth":  100,
+                                          "OpticalErrorRadians":  0.001,
+                                          "PlumeHalfAngleDegrees":  1,
+                                          "PowerReserve":  0.05,
+                                          "RockAllowableStress":  5000000,
+                                          "RockDensity":  3000,
+                                          "StopOnSafetyFlag":  false,
+                                          "ThrustMargin":  1.15,
+                                          "ThrusterEfficiency":  1,
+                                          "Years":  10000
+                                      },
+                           "energyError":  7.55742060768802E-12,
+                           "finalA_AU":  2.699138036643842,
+                           "finalE":  0.02076560175195826,
+                           "flags":  [
+                                         {
+                                             "cause":  "Giant focusing optics remain outside E1-E3 pending organiser confirmation.",
+                                             "code":  "FocusingOpticsUnresolved",
+                                             "enabler":  false,
+                                             "firstTimeSeconds":  0
+                                         },
+                                         {
+                                             "cause":  "Rock and frame strength inputs are illustrative engineering assumptions, not validated components.",
+                                             "code":  "MaterialStrengthUnvalidated",
+                                             "enabler":  false,
+                                             "firstTimeSeconds":  0
+                                         },
+                                         {
+                                             "cause":  "Local beam/column checks omit coupled thermal deformation and global optical stability.",
+                                             "code":  "ThermalStructuralModelIncomplete",
+                                             "enabler":  false,
+                                             "firstTimeSeconds":  0
+                                         },
+                                         {
+                                             "cause":  "A modeled component safety factor is below 1.5; rock/frame assumptions do not imply unlimited strength.",
+                                             "code":  "StructuralSafety",
+                                             "enabler":  false,
+                                             "firstTimeSeconds":  0
+                                         },
+                                         {
+                                             "cause":  "An unintegrated parcel is not initially radially outbound; ballistic future escape is not assumed.",
+                                             "code":  "InitiallyInwardEjecta.Tractor",
+                                             "enabler":  false,
+                                             "firstTimeSeconds":  3600
+                                         },
+                                         {
+                                             "cause":  "Tractor tide gradient exceeds placeholder Moon-relative threshold.",
+                                             "code":  "TractorTides",
+                                             "enabler":  false,
+                                             "firstTimeSeconds":  612000
+                                         },
+                                         {
+                                             "cause":  "Plume cone or exclusion zone intersects target.",
+                                             "code":  "PlumeIntersection.Tractor.Array",
+                                             "enabler":  false,
+                                             "firstTimeSeconds":  1864836000
+                                         },
+                                         {
+                                             "cause":  "Received visible plus array waste-heat flux exceeds placeholder limit.",
+                                             "code":  "FluxCap",
+                                             "enabler":  false,
+                                             "firstTimeSeconds":  1987567200
+                                         },
+                                         {
+                                             "cause":  "Plume cone or exclusion zone intersects target.",
+                                             "code":  "PlumeIntersection.Mirror.Array",
+                                             "enabler":  false,
+                                             "firstTimeSeconds":  2018581200
+                                         },
+                                         {
+                                             "cause":  "Array overlaps Sun as seen from Earth or mirror beyond threshold.",
+                                             "code":  "ArrayShading",
+                                             "enabler":  false,
+                                             "firstTimeSeconds":  2019160800
+                                         },
+                                         {
+                                             "cause":  "Plume cone or exclusion zone intersects target.",
+                                             "code":  "PlumeIntersection.Array.Mirror",
+                                             "enabler":  false,
+                                             "firstTimeSeconds":  9703861200
+                                         },
+                                         {
+                                             "cause":  "Gaussian plume irradiance on Earth\u0027s near limb exceeds threshold.",
+                                             "code":  "PlumeHeating.Array",
+                                             "enabler":  false,
+                                             "firstTimeSeconds":  39322850400
+                                         },
+                                         {
+                                             "cause":  "Plume cone or exclusion zone intersects target.",
+                                             "code":  "PlumeIntersection.Array.Moon",
+                                             "enabler":  false,
+                                             "firstTimeSeconds":  39322868400
+                                         },
+                                         {
+                                             "cause":  "Plume cone or exclusion zone intersects target.",
+                                             "code":  "PlumeIntersection.Array.Earth",
+                                             "enabler":  false,
+                                             "firstTimeSeconds":  41465844000
+                                         }
+                                     ],
+                           "impulseError":  5.1739255698033883E-12,
+                           "jetEnergyJ":  1.3344134449046507E+34,
+                           "limitations":  "Giant focusing optics unresolved per user; simple EBM; illustrative material strengths; omitted coupled thermal/global optical structure; ballistic ejecta not propagated; predeployment/assembly not simulated; prescribed paths realized with discrete impulses; constant nominal solar luminosity; incoming IR treated using the EBM albedo approximation.",
+                           "materialKg":  2.9653741635095254E+23,
+                           "maximumShade":  1,
+                           "minimumSafetyFactor":  0.09209717940210621,
+                           "momentumError":  6.2349821292542488E-13,
+                           "partialStep":  false,
+                           "placeholderThresholds":  true,
+                           "reactionError":  6.6338506132928961E-16,
+                           "scope":  "full N-body with finite-mass prescribed infrastructure and explicit solar supply",
+                           "seconds":  315576000000,
+                           "solarInputJ":  4.7042802873550931E+34,
+                           "sourceFraction":  1,
+                           "status":  "FAIL (provisional: placeholder thresholds)",
+                           "targetTimeSeconds":  275882090400,
+                           "temperatureMaximum":  291.81176481764356,
+                           "temperatureMinimum":  288,
+                           "trajectoryFile":  "E:\\spidergamedev\\OctoEarth-Simulator\\Results\\mission_h3600_y10000\\run_mission.csv"
+                       },
+    "notes":  [
+                  "aEarthAU is recomputed from actual Earth-Sun relative state with GM_sun+GM_earth. aEmbAU is the existing mission CSV a_m (Earth-Moon barycentre, GM_sun+GM_earth+GM_moon).",
+                  "Acceleration is the actual tractor gravitational contribution projected along Earth heliocentric velocity, not total solar acceleration.",
+                  "da/dt is the tractor-only EMB energy derivative; it is not the noisy full N-body instantaneous derivative.",
+                  "mdot is calculated from the recorded end-half-kick thrust / (ve cos cant). Ejected mass is measured accumulation; total includes all infrastructure.",
+                  "The t=0 row precedes the first commanded kick; zero recorded thrust at t=0 is not a premature cutoff.",
+                  "Null final tractor-only propellant and da/dt fields mean the original full-run binary did not log those extra columns. No estimated values substituted.",
+                  "No acceptance tolerance changed. Checkpoint instrumentation matches all 12,176 shared original full-run CSV rows exactly."
+              ]
+}

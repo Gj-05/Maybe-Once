@@ -1,0 +1,5 @@
+# Mission datasets exceeding GitHub's regular-file size limit
+Results/design_audit/thermal_original_layout/run_mission.csv filter=lfs diff=lfs merge=lfs -text
+Results/mission_h3600_y10000/run_mission.csv filter=lfs diff=lfs merge=lfs -text
+Results/design_audit/candidate_probe10/run_mission.csv filter=lfs diff=lfs merge=lfs -text
+Results/design_audit/full_h3600/run_mission.csv filter=lfs diff=lfs merge=lfs -text

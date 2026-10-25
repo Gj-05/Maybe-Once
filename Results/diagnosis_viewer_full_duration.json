@@ -1,0 +1,23 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"Source\":\"Results/mission_h3600_y10000/run_mission.csv\",\"Samples\":121752,\"EndYears\":10000.0,\"Earth\":\"(39.10, 0.45, -35.95)\",\"Error\":null},\"compiler\":\"codedom\"}}"
+    }
+  ],
+  "structuredContent": {
+    "success": true,
+    "message": "Code executed successfully.",
+    "data": {
+      "result": {
+        "Source": "Results/mission_h3600_y10000/run_mission.csv",
+        "Samples": 121752,
+        "EndYears": 10000,
+        "Earth": "(39.10, 0.45, -35.95)",
+        "Error": null
+      },
+      "compiler": "codedom"
+    }
+  },
+  "isError": false
+}

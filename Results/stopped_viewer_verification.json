@@ -1,0 +1,28 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"Scene\":\"Assets/Scenes/OctoEarth_Main.unity\",\"Source\":\"partial run: first 5460.780402 yr\\nResults/design_audit/full_h3600/run_mission.csv\",\"VisibleLabel\":\"MISSION CSV\\npartial run: first 5460.780402 yr\\nResults/design_audit/full_h3600/run_mission.csv\\nLoaded through 5460.780 yr. Reload to read newer output.\",\"PlaybackTimeYears\":5460.780401551448,\"Records\":66491,\"PlaybackPlaying\":false,\"BaselinePhysicsRunning\":false,\"MoonVisible\":false,\"MissingScripts\":0,\"RecordingError\":null},\"compiler\":\"codedom\"}}"
+    }
+  ],
+  "structuredContent": {
+    "success": true,
+    "message": "Code executed successfully.",
+    "data": {
+      "result": {
+        "Scene": "Assets/Scenes/OctoEarth_Main.unity",
+        "Source": "partial run: first 5460.780402 yr\nResults/design_audit/full_h3600/run_mission.csv",
+        "VisibleLabel": "MISSION CSV\npartial run: first 5460.780402 yr\nResults/design_audit/full_h3600/run_mission.csv\nLoaded through 5460.780 yr. Reload to read newer output.",
+        "PlaybackTimeYears": 5460.780401551448,
+        "Records": 66491,
+        "PlaybackPlaying": false,
+        "BaselinePhysicsRunning": false,
+        "MoonVisible": false,
+        "MissingScripts": 0,
+        "RecordingError": null
+      },
+      "compiler": "codedom"
+    }
+  },
+  "isError": false
+}

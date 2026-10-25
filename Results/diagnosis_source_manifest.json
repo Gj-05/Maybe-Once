@@ -1,0 +1,86 @@
+[
+    {
+        "path":  "Assets/Scripts/Core/MissionRecording.cs",
+        "sha256":  "C077FF8887082D0AD039A429DD85758F9D23C492BBD942EB3201D083F0C732F3"
+    },
+    {
+        "path":  "Assets/Scripts/Core/MissionRecording.cs.meta",
+        "sha256":  "9CB8C964A9E8AB9A3C5863D71B495DC73E810C6B31BA8D54CFC79B29FB0DA8AE"
+    },
+    {
+        "path":  "Assets/Scripts/Core/MissionDiagnosticAudit.cs",
+        "sha256":  "38948A0DEF3136376038B92CCC628573044BD1D908A328AC749A78FB0051CAE5"
+    },
+    {
+        "path":  "Assets/Scripts/Core/MissionDiagnosticAudit.cs.meta",
+        "sha256":  "1B8582E03884F49F3DB82669EB6AC19965ED8D28295D06199C8EE5EC31C33388"
+    },
+    {
+        "path":  "Assets/Scripts/Core/MissionSimulation.cs",
+        "sha256":  "5E4138F520132AEC95F6D545DCEEB5607C3DE5916357B750CB9DEF8A961A98CA"
+    },
+    {
+        "path":  "Assets/Scripts/Runtime/TractorInspection.cs",
+        "sha256":  "69C09D50F0ED4C13BC5F562D98FA1CB7A07B89717CA75A3431AD7091872E0A64"
+    },
+    {
+        "path":  "Assets/Scripts/Editor/TractorViewSetup.cs",
+        "sha256":  "8BBC6C937FEF8DBE11DC55C383B80D1DF55B9405BFB5FA52D2BEC7186B8CEBD4"
+    },
+    {
+        "path":  "Assets/Scenes/OctoEarth_Main.unity",
+        "sha256":  "DB29EBD5F212CE9CA98243F28C4E5AB0483330FA27C465F8557BE3725BF9AF00"
+    },
+    {
+        "path":  "Assets/Tests/EditMode/CoreTests.cs",
+        "sha256":  "A925342926EE4223C0F8A4B6E7FEFA63F1761BFC55236ADB654A96B3FE1F2C8C"
+    },
+    {
+        "path":  "Assets/Tests/EditMode/MissionViewerTests.cs",
+        "sha256":  "596ECE988268B80BBC5E1AE7CFD63289031B0921608E6BBB232A3126AEF081FD"
+    },
+    {
+        "path":  "Assets/Tests/EditMode/MissionViewerTests.cs.meta",
+        "sha256":  "F5CCCA7F2D0E2A4E7A30FDA4D4367BC9AD96D8C5D5E3BB194693C3D8DC1B816A"
+    },
+    {
+        "path":  "Assets/Tests/EditMode/OctoEarth.Tests.EditMode.asmdef",
+        "sha256":  "60B9731BCA475309D6E1641E1F8C7FED2873E32B9F247647BA66B027AAC01B97"
+    },
+    {
+        "path":  "Tools/OctoEarth.Cli/Program.cs",
+        "sha256":  "8EAD3EFD2AD038B4461B9C7382A340B3BF1D2BFC1BB23288F3EE54080D04544E"
+    },
+    {
+        "path":  "Tools/Diagnose-Mission.ps1",
+        "sha256":  "16CCF284D37CC39FA497C12EE256D700D5B4E76B51EC917FB5A1693FEBE7ED42"
+    },
+    {
+        "path":  "Tools/Plot-MissionDiagnosis.ps1",
+        "sha256":  "6A03E4B9518FABBE207AEFDD997A25E5ABF2DA2FE9EF7F8648D530B8451428C2"
+    },
+    {
+        "path":  "Tools/Write-DiagnosisReport.ps1",
+        "sha256":  "59953602DB9A9CF93F4D704AF85946A352F3738753565FBABD0E53B32C7B0325"
+    },
+    {
+        "path":  "Tools/Update-GateReport.ps1",
+        "sha256":  "BADC3C996B0A6524BF904A714F5BF5041E1FED7D6BE73F2DEFB2DA768635ECBC"
+    },
+    {
+        "path":  "README.md",
+        "sha256":  "00FF946EB9CB20EF911F51922B8EE30059AD2D0A0B2EAE68A053C1D46F60D41D"
+    },
+    {
+        "path":  "LOG.md",
+        "sha256":  "9EBB5CBFDCB7B6523CD144C26C0CD5D81AF281DD73AE66AE7E84D964C9097BBE"
+    },
+    {
+        "path":  "Docs/M3_Design.md",
+        "sha256":  "4F3966479170DDA96E5A8BA1BBD13CD24DF9AFDFC8300AC96245858C73F41F35"
+    },
+    {
+        "path":  "Docs/Tractor_Diagnosis.md",
+        "sha256":  "38D3ACFD0C37C7F66CAC0668A2333995AB9FE5D2651FC463C7EF6384132D71D2"
+    }
+]

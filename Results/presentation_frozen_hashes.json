@@ -1,0 +1,14 @@
+﻿[
+    {
+        "path":  "Config/mission.json",
+        "unchanged":  true
+    },
+    {
+        "path":  "Config/thresholds.json",
+        "unchanged":  true
+    },
+    {
+        "path":  "Assets/Scripts/Core/MissionThresholds.cs",
+        "unchanged":  true
+    }
+]

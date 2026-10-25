@@ -1,0 +1,866 @@
+{
+    "gates":  [
+                  {
+                      "id":  "G1",
+                      "status":  "PASS",
+                      "files":  [
+                                    "Results/g1_results.json"
+                                ],
+                      "checks":  [
+                                     {
+                                         "id":  "G1.h60.duration",
+                                         "name":  "Thirty-day hover duration",
+                                         "passed":  true,
+                                         "measured":  2592000,
+                                         "expected":  2592000,
+                                         "error":  0,
+                                         "tolerance":  0,
+                                         "dt":  60,
+                                         "unit":  "s",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G1.h60.distance",
+                                         "name":  "Max hover separation error",
+                                         "passed":  true,
+                                         "measured":  0.0004751317914288844,
+                                         "expected":  0,
+                                         "error":  0.0004751317914288844,
+                                         "tolerance":  0.001,
+                                         "dt":  60,
+                                         "unit":  "relative d",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G1.h60.acceleration",
+                                         "name":  "Measured Earth acceleration vs G mt/r2",
+                                         "passed":  true,
+                                         "measured":  5.7936306687421328E-06,
+                                         "expected":  0,
+                                         "error":  5.7936306687421328E-06,
+                                         "tolerance":  0.001,
+                                         "dt":  60,
+                                         "unit":  "relative",
+                                         "notes":  "Finite velocity change minus averaged solar acceleration; vector comparison"
+                                     },
+                                     {
+                                         "id":  "G1.h60.P",
+                                         "name":  "Global body-plus-source momentum",
+                                         "passed":  true,
+                                         "measured":  1.107384620005112E-14,
+                                         "expected":  0,
+                                         "error":  1.107384620005112E-14,
+                                         "tolerance":  1E-09,
+                                         "dt":  60,
+                                         "unit":  "initial gross P",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G1.h60.L",
+                                         "name":  "Global angular momentum",
+                                         "passed":  true,
+                                         "measured":  3.852525009543249E-14,
+                                         "expected":  0,
+                                         "error":  3.852525009543249E-14,
+                                         "tolerance":  1E-09,
+                                         "dt":  60,
+                                         "unit":  "initial gross L",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G1.h60.E",
+                                         "name":  "Global energy including jet input",
+                                         "passed":  true,
+                                         "measured":  7.6816772011545928E-14,
+                                         "expected":  0,
+                                         "error":  7.6816772011545928E-14,
+                                         "tolerance":  1E-09,
+                                         "dt":  60,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G1.h60.impulse",
+                                         "name":  "Measured tractor kick vs requested impulse",
+                                         "passed":  true,
+                                         "measured":  4.2743742266861519E-13,
+                                         "expected":  0,
+                                         "error":  4.2743742266861519E-13,
+                                         "tolerance":  1E-09,
+                                         "dt":  60,
+                                         "unit":  "relative impulse",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G1.h60.reaction",
+                                         "name":  "Ejecta plus supplier reaction",
+                                         "passed":  true,
+                                         "measured":  4.0783463032758516E-16,
+                                         "expected":  0,
+                                         "error":  4.0783463032758516E-16,
+                                         "tolerance":  1E-09,
+                                         "dt":  60,
+                                         "unit":  "relative impulse",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G1.h30.duration",
+                                         "name":  "Thirty-day hover duration",
+                                         "passed":  true,
+                                         "measured":  2592000,
+                                         "expected":  2592000,
+                                         "error":  0,
+                                         "tolerance":  0,
+                                         "dt":  30,
+                                         "unit":  "s",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G1.h30.distance",
+                                         "name":  "Max hover separation error",
+                                         "passed":  true,
+                                         "measured":  0.00023836432836499277,
+                                         "expected":  0,
+                                         "error":  0.00023836432836499277,
+                                         "tolerance":  0.001,
+                                         "dt":  30,
+                                         "unit":  "relative d",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G1.h30.acceleration",
+                                         "name":  "Measured Earth acceleration vs G mt/r2",
+                                         "passed":  true,
+                                         "measured":  7.5842155749078839E-06,
+                                         "expected":  0,
+                                         "error":  7.5842155749078839E-06,
+                                         "tolerance":  0.001,
+                                         "dt":  30,
+                                         "unit":  "relative",
+                                         "notes":  "Finite velocity change minus averaged solar acceleration; vector comparison"
+                                     },
+                                     {
+                                         "id":  "G1.h30.P",
+                                         "name":  "Global body-plus-source momentum",
+                                         "passed":  true,
+                                         "measured":  1.9441628936345561E-14,
+                                         "expected":  0,
+                                         "error":  1.9441628936345561E-14,
+                                         "tolerance":  1E-09,
+                                         "dt":  30,
+                                         "unit":  "initial gross P",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G1.h30.L",
+                                         "name":  "Global angular momentum",
+                                         "passed":  true,
+                                         "measured":  3.4163901028025036E-14,
+                                         "expected":  0,
+                                         "error":  3.4163901028025036E-14,
+                                         "tolerance":  1E-09,
+                                         "dt":  30,
+                                         "unit":  "initial gross L",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G1.h30.E",
+                                         "name":  "Global energy including jet input",
+                                         "passed":  true,
+                                         "measured":  6.8329933177409129E-14,
+                                         "expected":  0,
+                                         "error":  6.8329933177409129E-14,
+                                         "tolerance":  1E-09,
+                                         "dt":  30,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G1.h30.impulse",
+                                         "name":  "Measured tractor kick vs requested impulse",
+                                         "passed":  true,
+                                         "measured":  8.5247940709331819E-13,
+                                         "expected":  0,
+                                         "error":  8.5247940709331819E-13,
+                                         "tolerance":  1E-09,
+                                         "dt":  30,
+                                         "unit":  "relative impulse",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G1.h30.reaction",
+                                         "name":  "Ejecta plus supplier reaction",
+                                         "passed":  true,
+                                         "measured":  4.0812243839803449E-16,
+                                         "expected":  0,
+                                         "error":  4.0812243839803449E-16,
+                                         "tolerance":  1E-09,
+                                         "dt":  30,
+                                         "unit":  "relative impulse",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G1.halfstep",
+                                         "name":  "h versus h/2 final Earth velocity difference",
+                                         "passed":  true,
+                                         "measured":  4.9528154547508848E-05,
+                                         "expected":  0,
+                                         "error":  4.9528154547508848E-05,
+                                         "tolerance":  0.001,
+                                         "dt":  0,
+                                         "unit":  "m/s",
+                                         "notes":  "Diagnostic convergence bound, not an altered G1 threshold"
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "G2",
+                      "status":  "PASS",
+                      "files":  [
+                                    "Results/g2_h300/g2_results.json",
+                                    "Results/g2_h150/g2_results.json"
+                                ],
+                      "checks":  [
+                                     {
+                                         "id":  "G2.deltaV",
+                                         "name":  "10yr Mode A/B delivered delta-v agreement",
+                                         "passed":  true,
+                                         "measured":  0.004605148764729897,
+                                         "expected":  0,
+                                         "error":  0.004605148764729897,
+                                         "tolerance":  0.01,
+                                         "dt":  300,
+                                         "unit":  "relative",
+                                         "notes":  "A dv=13.341600034466166 m/s; B dv=13.403324336979884 m/s"
+                                     },
+                                     {
+                                         "id":  "G2.aDifference",
+                                         "name":  "Final semi-major difference",
+                                         "passed":  true,
+                                         "measured":  619990.8017883301,
+                                         "expected":  0,
+                                         "error":  619990.8017883301,
+                                         "tolerance":  149597870700,
+                                         "dt":  300,
+                                         "unit":  "m",
+                                         "notes":  "Diagnostic difference, not the acceptance criterion"
+                                     },
+                                     {
+                                         "id":  "G2.eDifference",
+                                         "name":  "Final eccentricity difference",
+                                         "passed":  true,
+                                         "measured":  4.4880252458856518E-08,
+                                         "expected":  0,
+                                         "error":  4.4880252458856518E-08,
+                                         "tolerance":  1,
+                                         "dt":  300,
+                                         "unit":  "dimensionless",
+                                         "notes":  "Diagnostic difference"
+                                     },
+                                     {
+                                         "id":  "G2.A.P",
+                                         "name":  "Momentum ledger A",
+                                         "passed":  true,
+                                         "measured":  1.1040959536278891E-13,
+                                         "expected":  0,
+                                         "error":  1.1040959536278891E-13,
+                                         "tolerance":  1E-09,
+                                         "dt":  300,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G2.A.L",
+                                         "name":  "Angular ledger A",
+                                         "passed":  true,
+                                         "measured":  7.1088196707799237E-14,
+                                         "expected":  0,
+                                         "error":  7.1088196707799237E-14,
+                                         "tolerance":  1E-09,
+                                         "dt":  300,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G2.A.E",
+                                         "name":  "Energy ledger A",
+                                         "passed":  true,
+                                         "measured":  3.2084793951078965E-13,
+                                         "expected":  0,
+                                         "error":  3.2084793951078965E-13,
+                                         "tolerance":  1E-09,
+                                         "dt":  300,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G2.A.kick",
+                                         "name":  "Actual tractor impulse A",
+                                         "passed":  true,
+                                         "measured":  1.1133358536662532E-13,
+                                         "expected":  0,
+                                         "error":  1.1133358536662532E-13,
+                                         "tolerance":  1E-09,
+                                         "dt":  300,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G2.A.reaction",
+                                         "name":  "Reaction closure A",
+                                         "passed":  true,
+                                         "measured":  4.4607153191742749E-16,
+                                         "expected":  0,
+                                         "error":  4.4607153191742749E-16,
+                                         "tolerance":  1E-09,
+                                         "dt":  300,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G2.A.Moon",
+                                         "name":  "Moon bound throughout A",
+                                         "passed":  true,
+                                         "measured":  1,
+                                         "expected":  1,
+                                         "error":  0,
+                                         "tolerance":  0,
+                                         "dt":  300,
+                                         "unit":  "boolean",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G2.B.P",
+                                         "name":  "Momentum ledger B",
+                                         "passed":  true,
+                                         "measured":  1.7887107012205657E-13,
+                                         "expected":  0,
+                                         "error":  1.7887107012205657E-13,
+                                         "tolerance":  1E-09,
+                                         "dt":  300,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G2.B.L",
+                                         "name":  "Angular ledger B",
+                                         "passed":  true,
+                                         "measured":  1.1401873481640714E-13,
+                                         "expected":  0,
+                                         "error":  1.1401873481640714E-13,
+                                         "tolerance":  1E-09,
+                                         "dt":  300,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G2.B.E",
+                                         "name":  "Energy ledger B",
+                                         "passed":  true,
+                                         "measured":  2.1234773722842864E-13,
+                                         "expected":  0,
+                                         "error":  2.1234773722842864E-13,
+                                         "tolerance":  1E-09,
+                                         "dt":  300,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G2.B.kick",
+                                         "name":  "Actual tractor impulse B",
+                                         "passed":  true,
+                                         "measured":  1.0738722088625344E-13,
+                                         "expected":  0,
+                                         "error":  1.0738722088625344E-13,
+                                         "tolerance":  1E-09,
+                                         "dt":  300,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G2.B.reaction",
+                                         "name":  "Reaction closure B",
+                                         "passed":  true,
+                                         "measured":  4.7680774015264771E-16,
+                                         "expected":  0,
+                                         "error":  4.7680774015264771E-16,
+                                         "tolerance":  1E-09,
+                                         "dt":  300,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G2.B.Moon",
+                                         "name":  "Moon bound throughout B",
+                                         "passed":  true,
+                                         "measured":  1,
+                                         "expected":  1,
+                                         "error":  0,
+                                         "tolerance":  0,
+                                         "dt":  300,
+                                         "unit":  "boolean",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G2.deltaV",
+                                         "name":  "10yr Mode A/B delivered delta-v agreement",
+                                         "passed":  true,
+                                         "measured":  0.002347315069619474,
+                                         "expected":  0,
+                                         "error":  0.002347315069619474,
+                                         "tolerance":  0.01,
+                                         "dt":  150,
+                                         "unit":  "relative",
+                                         "notes":  "A dv=13.371862513213918 m/s; B dv=13.40332433841648 m/s"
+                                     },
+                                     {
+                                         "id":  "G2.aDifference",
+                                         "name":  "Final semi-major difference",
+                                         "passed":  true,
+                                         "measured":  316047.60580444336,
+                                         "expected":  0,
+                                         "error":  316047.60580444336,
+                                         "tolerance":  149597870700,
+                                         "dt":  150,
+                                         "unit":  "m",
+                                         "notes":  "Diagnostic difference, not the acceptance criterion"
+                                     },
+                                     {
+                                         "id":  "G2.eDifference",
+                                         "name":  "Final eccentricity difference",
+                                         "passed":  true,
+                                         "measured":  2.287872173309391E-08,
+                                         "expected":  0,
+                                         "error":  2.287872173309391E-08,
+                                         "tolerance":  1,
+                                         "dt":  150,
+                                         "unit":  "dimensionless",
+                                         "notes":  "Diagnostic difference"
+                                     },
+                                     {
+                                         "id":  "G2.A.P",
+                                         "name":  "Momentum ledger A",
+                                         "passed":  true,
+                                         "measured":  7.5938949248206611E-14,
+                                         "expected":  0,
+                                         "error":  7.5938949248206611E-14,
+                                         "tolerance":  1E-09,
+                                         "dt":  150,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G2.A.L",
+                                         "name":  "Angular ledger A",
+                                         "passed":  true,
+                                         "measured":  1.0015648891428853E-13,
+                                         "expected":  0,
+                                         "error":  1.0015648891428853E-13,
+                                         "tolerance":  1E-09,
+                                         "dt":  150,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G2.A.E",
+                                         "name":  "Energy ledger A",
+                                         "passed":  true,
+                                         "measured":  2.1234773722842864E-13,
+                                         "expected":  0,
+                                         "error":  2.1234773722842864E-13,
+                                         "tolerance":  1E-09,
+                                         "dt":  150,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G2.A.kick",
+                                         "name":  "Actual tractor impulse A",
+                                         "passed":  true,
+                                         "measured":  2.1876392213584594E-13,
+                                         "expected":  0,
+                                         "error":  2.1876392213584594E-13,
+                                         "tolerance":  1E-09,
+                                         "dt":  150,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G2.A.reaction",
+                                         "name":  "Reaction closure A",
+                                         "passed":  true,
+                                         "measured":  4.4678264720548179E-16,
+                                         "expected":  0,
+                                         "error":  4.4678264720548179E-16,
+                                         "tolerance":  1E-09,
+                                         "dt":  150,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G2.A.Moon",
+                                         "name":  "Moon bound throughout A",
+                                         "passed":  true,
+                                         "measured":  1,
+                                         "expected":  1,
+                                         "error":  0,
+                                         "tolerance":  0,
+                                         "dt":  150,
+                                         "unit":  "boolean",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G2.B.P",
+                                         "name":  "Momentum ledger B",
+                                         "passed":  true,
+                                         "measured":  1.3456089073235828E-13,
+                                         "expected":  0,
+                                         "error":  1.3456089073235828E-13,
+                                         "tolerance":  1E-09,
+                                         "dt":  150,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G2.B.L",
+                                         "name":  "Angular ledger B",
+                                         "passed":  true,
+                                         "measured":  1.0284757288648671E-13,
+                                         "expected":  0,
+                                         "error":  1.0284757288648671E-13,
+                                         "tolerance":  1E-09,
+                                         "dt":  150,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G2.B.E",
+                                         "name":  "Energy ledger B",
+                                         "passed":  true,
+                                         "measured":  2.3840267431167143E-13,
+                                         "expected":  0,
+                                         "error":  2.3840267431167143E-13,
+                                         "tolerance":  1E-09,
+                                         "dt":  150,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G2.B.kick",
+                                         "name":  "Actual tractor impulse B",
+                                         "passed":  true,
+                                         "measured":  2.1372365166771207E-13,
+                                         "expected":  0,
+                                         "error":  2.1372365166771207E-13,
+                                         "tolerance":  1E-09,
+                                         "dt":  150,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G2.B.reaction",
+                                         "name":  "Reaction closure B",
+                                         "passed":  true,
+                                         "measured":  4.5248822462610508E-16,
+                                         "expected":  0,
+                                         "error":  4.5248822462610508E-16,
+                                         "tolerance":  1E-09,
+                                         "dt":  150,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G2.B.Moon",
+                                         "name":  "Moon bound throughout B",
+                                         "passed":  true,
+                                         "measured":  1,
+                                         "expected":  1,
+                                         "error":  0,
+                                         "tolerance":  0,
+                                         "dt":  150,
+                                         "unit":  "boolean",
+                                         "notes":  ""
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "G3",
+                      "status":  "PASS",
+                      "files":  [
+                                    "Results/g3_h3600/g3_results.json",
+                                    "Results/g3_h1800/g3_results.json"
+                                ],
+                      "checks":  [
+                                     {
+                                         "id":  "G3.a.sample1",
+                                         "name":  "Semi-major axis versus slow circular spiral",
+                                         "passed":  true,
+                                         "measured":  -0.0015463008901611675,
+                                         "expected":  0,
+                                         "error":  0.0015463008901611675,
+                                         "tolerance":  0.02,
+                                         "dt":  3600,
+                                         "unit":  "relative",
+                                         "notes":  "time yr=2173.9130732375083"
+                                     },
+                                     {
+                                         "id":  "G3.a.sample2",
+                                         "name":  "Semi-major axis versus slow circular spiral",
+                                         "passed":  true,
+                                         "measured":  -0.003463869950246612,
+                                         "expected":  0,
+                                         "error":  0.003463869950246612,
+                                         "tolerance":  0.02,
+                                         "dt":  3600,
+                                         "unit":  "relative",
+                                         "notes":  "time yr=4347.826146475017"
+                                     },
+                                     {
+                                         "id":  "G3.a.sample3",
+                                         "name":  "Semi-major axis versus slow circular spiral",
+                                         "passed":  true,
+                                         "measured":  -0.005904658889785419,
+                                         "expected":  0,
+                                         "error":  0.005904658889785419,
+                                         "tolerance":  0.02,
+                                         "dt":  3600,
+                                         "unit":  "relative",
+                                         "notes":  "time yr=6521.7392197125255"
+                                     },
+                                     {
+                                         "id":  "G3.a.sample4",
+                                         "name":  "Semi-major axis versus slow circular spiral",
+                                         "passed":  true,
+                                         "measured":  -0.009116629807454646,
+                                         "expected":  0,
+                                         "error":  0.009116629807454646,
+                                         "tolerance":  0.02,
+                                         "dt":  3600,
+                                         "unit":  "relative",
+                                         "notes":  "time yr=8695.652178872919"
+                                     },
+                                     {
+                                         "id":  "G3.targetTime",
+                                         "name":  "Target time versus delta-v / acceleration",
+                                         "passed":  true,
+                                         "measured":  0.007187408738307033,
+                                         "expected":  0,
+                                         "error":  0.007187408738307033,
+                                         "tolerance":  0.05,
+                                         "dt":  3600,
+                                         "unit":  "relative",
+                                         "notes":  "analytic yr=8695.652173913044; actual yr=8758.151380333105"
+                                     },
+                                     {
+                                         "id":  "G3.e",
+                                         "name":  "Maximum osculating eccentricity",
+                                         "passed":  true,
+                                         "measured":  0.00011224398680627888,
+                                         "expected":  0,
+                                         "error":  0.00011224398680627888,
+                                         "tolerance":  0.1,
+                                         "dt":  3600,
+                                         "unit":  "dimensionless",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G3.P",
+                                         "name":  "Momentum ledger diagnostic",
+                                         "passed":  true,
+                                         "measured":  1.2722604487763046E-12,
+                                         "expected":  0,
+                                         "error":  1.2722604487763046E-12,
+                                         "tolerance":  1E-09,
+                                         "dt":  3600,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G3.L",
+                                         "name":  "Angular momentum diagnostic",
+                                         "passed":  true,
+                                         "measured":  8.8044734298287927E-13,
+                                         "expected":  0,
+                                         "error":  8.8044734298287927E-13,
+                                         "tolerance":  1E-09,
+                                         "dt":  3600,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G3.E",
+                                         "name":  "Energy ledger diagnostic",
+                                         "passed":  true,
+                                         "measured":  1.0850097032565665E-12,
+                                         "expected":  0,
+                                         "error":  1.0850097032565665E-12,
+                                         "tolerance":  1E-09,
+                                         "dt":  3600,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G3.a.sample1",
+                                         "name":  "Semi-major axis versus slow circular spiral",
+                                         "passed":  true,
+                                         "measured":  -0.00037701474806906,
+                                         "expected":  0,
+                                         "error":  0.00037701474806906,
+                                         "tolerance":  0.02,
+                                         "dt":  1800,
+                                         "unit":  "relative",
+                                         "notes":  "time yr=2173.9130732375083"
+                                     },
+                                     {
+                                         "id":  "G3.a.sample2",
+                                         "name":  "Semi-major axis versus slow circular spiral",
+                                         "passed":  true,
+                                         "measured":  -0.0008454722742670118,
+                                         "expected":  0,
+                                         "error":  0.0008454722742670118,
+                                         "tolerance":  0.02,
+                                         "dt":  1800,
+                                         "unit":  "relative",
+                                         "notes":  "time yr=4347.826089436459"
+                                     },
+                                     {
+                                         "id":  "G3.a.sample3",
+                                         "name":  "Semi-major axis versus slow circular spiral",
+                                         "passed":  true,
+                                         "measured":  -0.0014432322076292081,
+                                         "expected":  0,
+                                         "error":  0.0014432322076292081,
+                                         "tolerance":  0.02,
+                                         "dt":  1800,
+                                         "unit":  "relative",
+                                         "notes":  "time yr=6521.739162673967"
+                                     },
+                                     {
+                                         "id":  "G3.a.sample4",
+                                         "name":  "Semi-major axis versus slow circular spiral",
+                                         "passed":  true,
+                                         "measured":  -0.002232396036312756,
+                                         "expected":  0,
+                                         "error":  0.002232396036312756,
+                                         "tolerance":  0.02,
+                                         "dt":  1800,
+                                         "unit":  "relative",
+                                         "notes":  "time yr=8695.652178872919"
+                                     },
+                                     {
+                                         "id":  "G3.targetTime",
+                                         "name":  "Target time versus delta-v / acceleration",
+                                         "passed":  true,
+                                         "measured":  0.0017414122746974847,
+                                         "expected":  0,
+                                         "error":  0.0017414122746974847,
+                                         "tolerance":  0.05,
+                                         "dt":  1800,
+                                         "unit":  "relative",
+                                         "notes":  "analytic yr=8695.652173913044; actual yr=8710.794889345198"
+                                     },
+                                     {
+                                         "id":  "G3.e",
+                                         "name":  "Maximum osculating eccentricity",
+                                         "passed":  true,
+                                         "measured":  0.00011286650293124247,
+                                         "expected":  0,
+                                         "error":  0.00011286650293124247,
+                                         "tolerance":  0.1,
+                                         "dt":  1800,
+                                         "unit":  "dimensionless",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G3.P",
+                                         "name":  "Momentum ledger diagnostic",
+                                         "passed":  true,
+                                         "measured":  1.7259269253839761E-12,
+                                         "expected":  0,
+                                         "error":  1.7259269253839761E-12,
+                                         "tolerance":  1E-09,
+                                         "dt":  1800,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G3.L",
+                                         "name":  "Angular momentum diagnostic",
+                                         "passed":  true,
+                                         "measured":  3.0424044202723148E-12,
+                                         "expected":  0,
+                                         "error":  3.0424044202723148E-12,
+                                         "tolerance":  1E-09,
+                                         "dt":  1800,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     },
+                                     {
+                                         "id":  "G3.E",
+                                         "name":  "Energy ledger diagnostic",
+                                         "passed":  true,
+                                         "measured":  3.986638139522723E-12,
+                                         "expected":  0,
+                                         "error":  3.986638139522723E-12,
+                                         "tolerance":  1E-09,
+                                         "dt":  1800,
+                                         "unit":  "relative",
+                                         "notes":  ""
+                                     }
+                                 ]
+                  },
+                  {
+                      "id":  "G4",
+                      "status":  "NOT_RUN",
+                      "files":  [
+                                    "Results/g4_results.json"
+                                ],
+                      "checks":  [
+
+                                 ]
+                  },
+                  {
+                      "id":  "G5",
+                      "status":  "NOT_RUN",
+                      "files":  [
+                                    "Results/g5_results.json"
+                                ],
+                      "checks":  [
+
+                                 ]
+                  },
+                  {
+                      "id":  "G6",
+                      "status":  "NOT_RUN",
+                      "files":  [
+                                    "Results/g6_results.json"
+                                ],
+                      "checks":  [
+
+                                 ]
+                  },
+                  {
+                      "id":  "G7",
+                      "status":  "NOT_RUN",
+                      "files":  [
+                                    "Results/g7_results.json"
+                                ],
+                      "checks":  [
+
+                                 ]
+                  },
+                  {
+                      "id":  "G8",
+                      "status":  "NOT_RUN",
+                      "files":  [
+                                    "Results/g8_results.json"
+                                ],
+                      "checks":  [
+
+                                 ]
+                  }
+              ],
+    "schema":  1,
+    "note":  "Gate status is read from executed result files. Pending later gates are not mission success.",
+    "missionStatus":  "NOT_EVALUATED"
+}

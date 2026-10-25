@@ -1,0 +1,14 @@
+[
+    {
+        "path":  "Config/mission.json",
+        "sha256":  "F0DB4121F79019852D9302083B176E132C0286F9783D791B93BF99BBA788C00F"
+    },
+    {
+        "path":  "Config/thresholds.json",
+        "sha256":  "D9D886CBFBAF5DCCD4105EB1EBAF637BF6165A5694AF48221CDCAE6AAAFBC38D"
+    },
+    {
+        "path":  "Assets/Scripts/Core/MissionThresholds.cs",
+        "sha256":  "6B972D12E7B69A5BA1FA8284F9A284AB325B1DE27043A75FD8CC001E9224C71B"
+    }
+]

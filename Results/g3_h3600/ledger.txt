@@ -1,0 +1,8 @@
+Ledger (SI; relative errors normalized by initial gross body scales)
+Name | mass kg | px,py,pz kg m/s | Lx,Ly,Lz kg m²/s | energy J
+EjectaSink | 2.5607742433054897E+23 | 5.419474497123412E+24,-2.3329213170795507E+24,0 | 0,0,-1.5667207227359044E+40 | 9.778603910334289E+33
+EnablerSource | -2.5607742433054897E+23 | 4.7370410793364886E+23,-1.665625947869659E+23,0 | 0,0,-1.447687787255429E+39 | 7.696657824131827E+31
+DriveEnergySource | 0 | 0,0,0 | 0,0,0 | -1.1523484094874703E+34
+net momentum gained by Earth system vs momentum carried by ejecta
+Applied impulse magnitude 6.401325948331474E+24; reaction impulse magnitude 6.401325948331474E+24
+Max relative P=1.2722604487763046E-12; L=8.804473429828793E-13; E=1.0850097032565665E-12; force closure=2.9795457035866755E-16; reaction closure=4.570414465785865E-16

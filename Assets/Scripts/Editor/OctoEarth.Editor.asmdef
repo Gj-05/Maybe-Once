@@ -1,0 +1,1 @@
+{"name":"OctoEarth.Editor","references":["OctoEarth.Core","OctoEarth.Viewer","Unity.RenderPipelines.Universal.Runtime"],"includePlatforms":["Editor"]}

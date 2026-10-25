@@ -1,0 +1,1 @@
+{"name":"OctoEarth.Tests.EditMode","references":["OctoEarth.Core","OctoEarth.Viewer"],"includePlatforms":["Editor"],"optionalUnityReferences":["TestAssemblies"]}

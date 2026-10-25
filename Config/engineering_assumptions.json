@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "focusingOptics": {
+    "status": "unresolved",
+    "organiserConfirmed": false,
+    "blocksMissionWin": true,
+    "decisionSource": "User response on 2026-10-25: Keep unresolved pending organiser confirmation",
+    "scope": "Giant focusing capability is not assumed to be accepted under E1 or E2. Geometric and energy calculations remain conditional engineering studies."
+  }
+}

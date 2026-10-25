@@ -1,0 +1,328 @@
+{
+    "label":  "partial-duration convergence (first 2361.149954369 years)",
+    "completedFullDuration":  false,
+    "overlapYears":  2361.1499543691534,
+    "alignedRecords":  28752,
+    "method":  "Fine recorded timestamps are the matching-time grid. Coarse scalar records are linearly aligned onto that grid; native monthly grids differ by1800s. These are interpolation-based differences, not extra integrations. Exact shared epochs are reported separately. The isolated1800s startup sample is excluded because no full coarse step existed then. Ledger maxima are cumulative sampled quantities; interpolation is diagnostic only.",
+    "metrics":  [
+                    {
+                        "metric":  "a_EMB_AU",
+                        "maxAbsoluteDifference":  0.00015072388507064716,
+                        "maxAtYear":  2333.8809605293177,
+                        "finalSignedDifference":  3.8481754356833875E-05,
+                        "finalCoarseAligned":  1.2515916697740799,
+                        "finalFineRecorded":  1.251553188019723,
+                        "maxAlignmentCorrectionFromNearestCoarseRecord":  3.289539884931969E-08
+                    },
+                    {
+                        "metric":  "eccentricity",
+                        "maxAbsoluteDifference":  0.00011415966275280312,
+                        "maxAtYear":  2242.9569358886606,
+                        "finalSignedDifference":  1.0874630646645275E-05,
+                        "finalCoarseAligned":  0.012919044531845111,
+                        "finalFineRecorded":  0.012908169901198465,
+                        "maxAlignmentCorrectionFromNearestCoarseRecord":  2.4275873162366013E-08
+                    },
+                    {
+                        "metric":  "Earth_Moon_distance_m",
+                        "maxAbsoluteDifference":  2686256.0663151741,
+                        "maxAtYear":  1862.0945128907142,
+                        "finalSignedDifference":  -138834.3891069293,
+                        "finalCoarseAligned":  397028152.70919079,
+                        "finalFineRecorded":  397166987.09829772,
+                        "maxAlignmentCorrectionFromNearestCoarseRecord":  45720.083990514278
+                    },
+                    {
+                        "metric":  "thrust_N",
+                        "maxAbsoluteDifference":  316316351920608,
+                        "maxAtYear":  1864.3943075519051,
+                        "finalSignedDifference":  -105733521843168,
+                        "finalCoarseAligned":  2.5757207941779424E+17,
+                        "finalFineRecorded":  2.5767781293963741E+17,
+                        "maxAlignmentCorrectionFromNearestCoarseRecord":  2358888005984
+                    },
+                    {
+                        "metric":  "ejected_kg",
+                        "maxAbsoluteDifference":  2.3454756976325558E+19,
+                        "maxAtYear":  2361.1499543691534,
+                        "finalSignedDifference":  -2.3454756976325558E+19,
+                        "finalCoarseAligned":  7.0704700653377847E+22,
+                        "finalFineRecorded":  7.0728155410354173E+22,
+                        "maxAlignmentCorrectionFromNearestCoarseRecord":  1708275214057472
+                    },
+                    {
+                        "metric":  "temperature_K",
+                        "maxAbsoluteDifference":  0.00028130978529361528,
+                        "maxAtYear":  131.17048825005705,
+                        "finalSignedDifference":  -1.0476676379767014E-06,
+                        "finalCoarseAligned":  289.86308738365369,
+                        "finalFineRecorded":  289.86308843132133,
+                        "maxAlignmentCorrectionFromNearestCoarseRecord":  5.03264294593464E-05
+                    },
+                    {
+                        "metric":  "relative_P",
+                        "maxAbsoluteDifference":  1.5534414999550995E-13,
+                        "maxAtYear":  1208.2136093999543,
+                        "finalSignedDifference":  1.7226439328155064E-14,
+                        "finalCoarseAligned":  4.2208643046208187E-13,
+                        "finalFineRecorded":  4.0485999113392681E-13,
+                        "maxAlignmentCorrectionFromNearestCoarseRecord":  3.3380833272371356E-18
+                    },
+                    {
+                        "metric":  "relative_L",
+                        "maxAbsoluteDifference":  3.283479196644128E-13,
+                        "maxAtYear":  674.00416381473872,
+                        "finalSignedDifference":  -1.3134661611813208E-13,
+                        "finalCoarseAligned":  3.5813395300384229E-13,
+                        "finalFineRecorded":  4.8948056912197437E-13,
+                        "maxAlignmentCorrectionFromNearestCoarseRecord":  4.6085824243401029E-18
+                    },
+                    {
+                        "metric":  "relative_E",
+                        "maxAbsoluteDifference":  5.6520601721126937E-13,
+                        "maxAtYear":  671.9507757243897,
+                        "finalSignedDifference":  -4.9560211519052039E-13,
+                        "finalCoarseAligned":  6.7314789735039885E-13,
+                        "finalFineRecorded":  1.1687500125409192E-12,
+                        "maxAlignmentCorrectionFromNearestCoarseRecord":  5.2988710317359072E-17
+                    }
+                ],
+    "exactSharedEpochs":  [
+                              {
+                                  "timeYear":  0,
+                                  "coarse":  [
+                                                 1.0000026100000001,
+                                                 0.016711230000000243,
+                                                 384400000,
+                                                 0,
+                                                 0,
+                                                 288,
+                                                 0,
+                                                 0,
+                                                 0
+                                             ],
+                                  "fine":  [
+                                               1.0000026100000001,
+                                               0.016711230000000243,
+                                               384400000,
+                                               0,
+                                               0,
+                                               288,
+                                               0,
+                                               0,
+                                               0
+                                           ],
+                                  "difference":  [
+                                                     0,
+                                                     0,
+                                                     0,
+                                                     0,
+                                                     0,
+                                                     0,
+                                                     0,
+                                                     0,
+                                                     0
+                                                 ]
+                              },
+                              {
+                                  "timeYear":  1,
+                                  "coarse":  [
+                                                 1.0001119024400609,
+                                                 0.016732263784286116,
+                                                 380128728.12659913,
+                                                 2.5739283969038992E+17,
+                                                 2.9944250310908662E+19,
+                                                 288.44945123382143,
+                                                 1.0318786092010249E-14,
+                                                 9.4942632269412849E-15,
+                                                 1.0626691993007403E-13
+                                             ],
+                                  "fine":  [
+                                               1.0001119322652536,
+                                               0.016732263532849807,
+                                               380128709.49844736,
+                                               2.5747844918094634E+17,
+                                               2.9954177659307409E+19,
+                                               288.449480514229,
+                                               1.6516181157675254E-14,
+                                               1.3451943974093165E-14,
+                                               4.8015525992923114E-14
+                                           ],
+                                  "difference":  [
+                                                     -2.9825192759957986E-08,
+                                                     2.5143630927315641E-10,
+                                                     18.628151774406433,
+                                                     -85609490556416,
+                                                     -9927348398747648,
+                                                     -2.9280407545684284E-05,
+                                                     -6.1973950656650044E-15,
+                                                     -3.95768074715188E-15,
+                                                     5.8251393937150915E-14
+                                                 ]
+                              },
+                              {
+                                  "timeYear":  10,
+                                  "coarse":  [
+                                                 1.0008916360866176,
+                                                 0.01667325171944015,
+                                                 382910588.76957697,
+                                                 2.5751179239122221E+17,
+                                                 2.9945105476419872E+20,
+                                                 290.3959840746075,
+                                                 1.5917765606720027E-14,
+                                                 2.5787733701882469E-14,
+                                                 1.1110569386734535E-13
+                                             ],
+                                  "fine":  [
+                                               1.0008919342797171,
+                                               0.01667324849075439,
+                                               382910962.20196366,
+                                               2.5759658159909734E+17,
+                                               2.995503771686815E+20,
+                                               290.39597108621672,
+                                               3.5458390020644806E-14,
+                                               3.2913391271159833E-14,
+                                               8.4120223832562982E-14
+                                           ],
+                                  "difference":  [
+                                                     -2.9819309954604023E-07,
+                                                     3.2286857597207952E-09,
+                                                     -373.43238669633865,
+                                                     -84789207875136,
+                                                     -99322404482777088,
+                                                     1.2988390778900794E-05,
+                                                     -1.9540624413924779E-14,
+                                                     -7.1256575692773635E-15,
+                                                     2.6985470034782369E-14
+                                                 ]
+                              },
+                              {
+                                  "timeYear":  100,
+                                  "coarse":  [
+                                                 1.0090547808390746,
+                                                 0.016633882495507533,
+                                                 395842234.29876894,
+                                                 2.5746119513232179E+17,
+                                                 2.9945177471135803E+21,
+                                                 290.28712703070386,
+                                                 1.2375619200639058E-13,
+                                                 5.4578568120405359E-14,
+                                                 1.8461783637589044E-13
+                                             ],
+                                  "fine":  [
+                                               1.0090578292185939,
+                                               0.016633849487944209,
+                                               395842428.57880926,
+                                               2.5754804386289757E+17,
+                                               2.9955110192762585E+21,
+                                               290.28693280410431,
+                                               8.3349736122973813E-14,
+                                               1.9368036320588881E-13,
+                                               3.9324343574824241E-13
+                                           ],
+                                  "difference":  [
+                                                     -3.0483795192548513E-06,
+                                                     3.3007563324943812E-08,
+                                                     -194.28004032373428,
+                                                     -86848730575776,
+                                                     -9.9327216267821056E+17,
+                                                     0.00019422659954670962,
+                                                     4.0406455883416767E-14,
+                                                     -1.3910179508548346E-13,
+                                                     -2.0862559937235197E-13
+                                                 ]
+                              },
+                              {
+                                  "timeYear":  1000,
+                                  "coarse":  [
+                                                 1.0963618106435724,
+                                                 0.015485637925409957,
+                                                 394053470.71231854,
+                                                 2.5740145535238989E+17,
+                                                 2.9945135017805111E+22,
+                                                 289.86696215972592,
+                                                 1.7898412031087648E-13,
+                                                 1.7111199125049206E-13,
+                                                 6.3834594634002436E-13
+                                             ],
+                                  "fine":  [
+                                               1.0963872763430949,
+                                               0.015494073526088158,
+                                               393390769.45522493,
+                                               2.5755895304401021E+17,
+                                               2.995506850245048E+22,
+                                               289.86697039646793,
+                                               1.561973770036805E-13,
+                                               4.8948056912197437E-13,
+                                               1.0769994144226592E-12
+                                           ],
+                                  "difference":  [
+                                                     -2.5465699522442264E-05,
+                                                     -8.435600678200969E-06,
+                                                     662701.25709360838,
+                                                     -157497691620320,
+                                                     -9.9334846453687255E+18,
+                                                     -8.2367420191076235E-06,
+                                                     2.2786743307195976E-14,
+                                                     -3.1836857787148234E-13,
+                                                     -4.3865346808263482E-13
+                                                 ]
+                              }
+                          ],
+    "runs":  [
+                 {
+                     "stepSeconds":  3600,
+                     "lastPreservedYear":  5460.7804015514484,
+                     "lastSeconds":  172329123600,
+                     "records":  66491,
+                     "aAU":  1.7638141003465406,
+                     "eccentricity":  0.010389426557126257,
+                     "moonDistanceFinalMetres":  379920316.11202139,
+                     "moonDistanceSampledMinMetres":  374491272.76501817,
+                     "moonDistanceSampledMaxMetres":  399757824.84215826,
+                     "moonBoundCumulative":  true,
+                     "recordedFlagCount":  4,
+                     "minimumSafetyFactorCumulative":  0.13896574091969552,
+                     "inferredGoverningRockStressPa":  35980090.969970524,
+                     "requiredRockStrengthForSF1_5Pa":  53970136.454955786,
+                     "requiredStrengthMultiplier":  10.794027290991156,
+                     "sampledMaxTideRatio":  0.0044963586022958848,
+                     "sampledMaxFluxWm2":  1407.9297393970623,
+                     "sampledMinTemperatureK":  288,
+                     "sampledMaxTemperatureK":  290.88715893517644,
+                     "momentumErrorMaxCumulative":  6.7728589335338011E-13,
+                     "angularErrorMaxCumulative":  9.9446387817117984E-13,
+                     "energyErrorMaxCumulative":  6.7314789735039885E-13
+                 },
+                 {
+                     "stepSeconds":  1800,
+                     "lastPreservedYear":  2361.1499543691534,
+                     "lastSeconds":  74512225800,
+                     "records":  28753,
+                     "aAU":  1.251553188019723,
+                     "eccentricity":  0.012908169901198465,
+                     "moonDistanceFinalMetres":  397166987.09829772,
+                     "moonDistanceSampledMinMetres":  374502453.34281325,
+                     "moonDistanceSampledMaxMetres":  399761572.41112572,
+                     "moonBoundCumulative":  true,
+                     "recordedFlagCount":  4,
+                     "minimumSafetyFactorCumulative":  0.13895264363665349,
+                     "inferredGoverningRockStressPa":  35983482.351544693,
+                     "requiredRockStrengthForSF1_5Pa":  53975223.52731704,
+                     "requiredStrengthMultiplier":  10.795044705463408,
+                     "sampledMaxTideRatio":  0.0044964850575742819,
+                     "sampledMaxFluxWm2":  1407.9285938934545,
+                     "sampledMinTemperatureK":  288,
+                     "sampledMaxTemperatureK":  290.88710718534634,
+                     "momentumErrorMaxCumulative":  4.0485999113392681E-13,
+                     "angularErrorMaxCumulative":  4.8948056912197437E-13,
+                     "energyErrorMaxCumulative":  1.1687500125409192E-12
+                 }
+             ],
+    "flagNames":  [
+                      "StructuralSafety",
+                      "FocusingOpticsUnresolved",
+                      "MaterialStrengthUnvalidated",
+                      "ThermalStructuralModelIncomplete"
+                  ]
+}

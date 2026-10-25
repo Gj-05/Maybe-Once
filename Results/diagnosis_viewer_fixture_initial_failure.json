@@ -1,0 +1,79 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"success\":true,\"message\":\"Test job status retrieved.\",\"error\":null,\"data\":{\"job_id\":\"ebc2225d077545f7928b4cb7699e62b2\",\"status\":\"failed\",\"mode\":\"EditMode\",\"started_unix_ms\":1792884118226,\"finished_unix_ms\":1792884122839,\"last_update_unix_ms\":1792884122839,\"progress\":{\"completed\":2,\"total\":2,\"current_test_full_name\":null,\"current_test_started_unix_ms\":null,\"last_finished_test_full_name\":\"OctoEarth.Tests.MissionViewerTests.SunCentredPlaybackMovesEarthAndRetainsTimeAcrossViews\",\"last_finished_unix_ms\":1792884122585,\"stuck_suspected\":false,\"editor_is_focused\":false,\"run_in_background\":false,\"focus_nudge_attempts\":null,\"focus_nudge_limit\":null,\"focus_nudge_status\":null,\"blocked_reason\":null,\"failures_so_far\":[{\"full_name\":\"OctoEarth.Tests.MissionViewerTests.SunCentredPlaybackMovesEarthAndRetainsTimeAcrossViews\",\"message\":\"System.InvalidOperationException : Cannot create a new scene additively with an untitled scene unsaved.\"}],\"failures_capped\":false},\"error\":null,\"result\":{\"mode\":\"EditMode\",\"summary\":{\"total\":2,\"passed\":1,\"failed\":1,\"skipped\":0,\"durationSeconds\":0.5206989,\"resultState\":\"Failed(Child)\"},\"results\":[{\"name\":\"MissionPlaybackRetainsMotionAndTransfer\",\"fullName\":\"OctoEarth.Tests.CoreTests.MissionPlaybackRetainsMotionAndTransfer\",\"state\":\"Passed\",\"durationSeconds\":0.0421184,\"message\":null,\"stackTrace\":null,\"output\":\"Viewer.a Recorded 100-year orbit grows: PASS; measured=1 boolean, expected=1, error=0, tolerance=0, dt=0; \\r\\nViewer.motion Quarter-year Sun-centred Earth displacement exceeds 1 AU: PASS; measured=1 boolean, expected=1, error=0, tolerance=0, dt=0; \\r\\nViewer.heading Recorded tractor heading rotates: PASS; measured=1 boolean, expected=1, error=0, tolerance=0, dt=0; \\r\\nViewer.endpoint Exact sample endpoint retained: PASS; measured=0 m, expected=0, error=0, tolerance=0, dt=0; \\r\\nViewer.clock Time lookup reaches final timestamp: PASS; measured=3155760000 s, expected=3155760000, error=0, tolerance=0, dt=0; \\r\\n\"},{\"name\":\"SunCentredPlaybackMovesEarthAndRetainsTimeAcrossViews\",\"fullName\":\"OctoEarth.Tests.MissionViewerTests.SunCentredPlaybackMovesEarthAndRetainsTimeAcrossViews\",\"state\":\"Failed:Error\",\"durationSeconds\":0.0049502,\"message\":\"System.InvalidOperationException : Cannot create a new scene additively with an untitled scene unsaved.\",\"stackTrace\":\"  at (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager.NewScene_Injected(UnityEditor.SceneManagement.NewSceneSetup,UnityEditor.SceneManagement.NewSceneMode,UnityEngine.SceneManagement.Scene&)\\r\\n  at UnityEditor.SceneManagement.EditorSceneManager.NewScene (UnityEditor.SceneManagement.NewSceneSetup setup, UnityEditor.SceneManagement.NewSceneMode mode) [0x00000] in <0e78d59907e9464abb64cd241282731e>:0 \\r\\n  at OctoEarth.Tests.MissionViewerTests.SunCentredPlaybackMovesEarthAndRetainsTimeAcrossViews () [0x00006] in E:\\\\spidergamedev\\\\OctoEarth-Simulator\\\\Assets\\\\Tests\\\\EditMode\\\\MissionViewerTests.cs:13 \\r\\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\\r\\n  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <1eb9db207454431c84a47bcd81e79c37>:0 \",\"output\":\"\"}]}},\"hint\":null}"
+    }
+  ],
+  "structuredContent": {
+    "result": {
+      "success": true,
+      "message": "Test job status retrieved.",
+      "error": null,
+      "data": {
+        "job_id": "ebc2225d077545f7928b4cb7699e62b2",
+        "status": "failed",
+        "mode": "EditMode",
+        "started_unix_ms": 1792884118226,
+        "finished_unix_ms": 1792884122839,
+        "last_update_unix_ms": 1792884122839,
+        "progress": {
+          "completed": 2,
+          "total": 2,
+          "current_test_full_name": null,
+          "current_test_started_unix_ms": null,
+          "last_finished_test_full_name": "OctoEarth.Tests.MissionViewerTests.SunCentredPlaybackMovesEarthAndRetainsTimeAcrossViews",
+          "last_finished_unix_ms": 1792884122585,
+          "stuck_suspected": false,
+          "editor_is_focused": false,
+          "run_in_background": false,
+          "focus_nudge_attempts": null,
+          "focus_nudge_limit": null,
+          "focus_nudge_status": null,
+          "blocked_reason": null,
+          "failures_so_far": [
+            {
+              "full_name": "OctoEarth.Tests.MissionViewerTests.SunCentredPlaybackMovesEarthAndRetainsTimeAcrossViews",
+              "message": "System.InvalidOperationException : Cannot create a new scene additively with an untitled scene unsaved."
+            }
+          ],
+          "failures_capped": false
+        },
+        "error": null,
+        "result": {
+          "mode": "EditMode",
+          "summary": {
+            "total": 2,
+            "passed": 1,
+            "failed": 1,
+            "skipped": 0,
+            "durationSeconds": 0.5206989,
+            "resultState": "Failed(Child)"
+          },
+          "results": [
+            {
+              "name": "MissionPlaybackRetainsMotionAndTransfer",
+              "fullName": "OctoEarth.Tests.CoreTests.MissionPlaybackRetainsMotionAndTransfer",
+              "state": "Passed",
+              "durationSeconds": 0.0421184,
+              "message": null,
+              "stackTrace": null,
+              "output": "Viewer.a Recorded 100-year orbit grows: PASS; measured=1 boolean, expected=1, error=0, tolerance=0, dt=0; \r\nViewer.motion Quarter-year Sun-centred Earth displacement exceeds 1 AU: PASS; measured=1 boolean, expected=1, error=0, tolerance=0, dt=0; \r\nViewer.heading Recorded tractor heading rotates: PASS; measured=1 boolean, expected=1, error=0, tolerance=0, dt=0; \r\nViewer.endpoint Exact sample endpoint retained: PASS; measured=0 m, expected=0, error=0, tolerance=0, dt=0; \r\nViewer.clock Time lookup reaches final timestamp: PASS; measured=3155760000 s, expected=3155760000, error=0, tolerance=0, dt=0; \r\n"
+            },
+            {
+              "name": "SunCentredPlaybackMovesEarthAndRetainsTimeAcrossViews",
+              "fullName": "OctoEarth.Tests.MissionViewerTests.SunCentredPlaybackMovesEarthAndRetainsTimeAcrossViews",
+              "state": "Failed:Error",
+              "durationSeconds": 0.0049502,
+              "message": "System.InvalidOperationException : Cannot create a new scene additively with an untitled scene unsaved.",
+              "stackTrace": "  at (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager.NewScene_Injected(UnityEditor.SceneManagement.NewSceneSetup,UnityEditor.SceneManagement.NewSceneMode,UnityEngine.SceneManagement.Scene&)\r\n  at UnityEditor.SceneManagement.EditorSceneManager.NewScene (UnityEditor.SceneManagement.NewSceneSetup setup, UnityEditor.SceneManagement.NewSceneMode mode) [0x00000] in <0e78d59907e9464abb64cd241282731e>:0 \r\n  at OctoEarth.Tests.MissionViewerTests.SunCentredPlaybackMovesEarthAndRetainsTimeAcrossViews () [0x00006] in E:\\spidergamedev\\OctoEarth-Simulator\\Assets\\Tests\\EditMode\\MissionViewerTests.cs:13 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <1eb9db207454431c84a47bcd81e79c37>:0 ",
+              "output": ""
+            }
+          ]
+        }
+      },
+      "hint": null
+    }
+  },
+  "isError": false
+}

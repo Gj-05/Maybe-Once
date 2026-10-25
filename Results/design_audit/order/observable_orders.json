@@ -1,0 +1,150 @@
+{
+    "scope":  "Full forced 13-body candidate mission, common first 10 years. This is not a full-duration order fit. All output times agree. Finest 450s result is a numerical reference, not an analytic solution.",
+    "fits":  [
+                 {
+                     "metric":  "a",
+                     "logLogOrder":  2.133871765716334,
+                     "points":  [
+                                    {
+                                        "dt":  7200,
+                                        "error":  1.5938782065294532E-06
+                                    },
+                                    {
+                                        "dt":  3600,
+                                        "error":  3.91176753655742E-07
+                                    },
+                                    {
+                                        "dt":  1800,
+                                        "error":  9.2983654109701774E-08
+                                    },
+                                    {
+                                        "dt":  900,
+                                        "error":  1.8588567129995681E-08
+                                    }
+                                ]
+                 },
+                 {
+                     "metric":  "temperature",
+                     "logLogOrder":  2.0687775610393828,
+                     "points":  [
+                                    {
+                                        "dt":  7200,
+                                        "error":  6.8506803245327319E-05
+                                    },
+                                    {
+                                        "dt":  3600,
+                                        "error":  1.7282236569826637E-05
+                                    },
+                                    {
+                                        "dt":  1800,
+                                        "error":  4.2938457909258432E-06
+                                    },
+                                    {
+                                        "dt":  900,
+                                        "error":  9.1503534349612892E-07
+                                    }
+                                ]
+                 },
+                 {
+                     "metric":  "material",
+                     "logLogOrder":  2.1338426883020327,
+                     "points":  [
+                                    {
+                                        "dt":  7200,
+                                        "error":  5.3291264936424243E+17
+                                    },
+                                    {
+                                        "dt":  3600,
+                                        "error":  1.307907223240704E+17
+                                    },
+                                    {
+                                        "dt":  1800,
+                                        "error":  31089652794851328
+                                    },
+                                    {
+                                        "dt":  900,
+                                        "error":  6215473230512128
+                                    }
+                                ]
+                 },
+                 {
+                     "metric":  "jetEnergy",
+                     "logLogOrder":  2.1338551255132323,
+                     "points":  [
+                                    {
+                                        "dt":  7200,
+                                        "error":  2.3890047067252571E+28
+                                    },
+                                    {
+                                        "dt":  3600,
+                                        "error":  5.8632139978611842E+27
+                                    },
+                                    {
+                                        "dt":  1800,
+                                        "error":  1.3937057961348996E+27
+                                    },
+                                    {
+                                        "dt":  900,
+                                        "error":  2.7862744203755068E+26
+                                    }
+                                ]
+                 }
+             ],
+    "richardsonA":  [
+                        {
+                            "coarseDt":  7200,
+                            "order":  2.01195978823972
+                        },
+                        {
+                            "coarseDt":  3600,
+                            "order":  2.0029676181419238
+                        },
+                        {
+                            "coarseDt":  1800,
+                            "order":  2.0007917828040322
+                        }
+                    ],
+    "raw":  [
+                {
+                    "dt":  7200,
+                    "a":  1.0008904333851647,
+                    "positionError":  7.6267728990427682E-05,
+                    "temperature":  290.39603529917417,
+                    "material":  3.0018645171643403E+20,
+                    "jetEnergy":  1.3457270631319549E+31
+                },
+                {
+                    "dt":  3600,
+                    "a":  1.0008916360866176,
+                    "positionError":  1.8718283406076211E-05,
+                    "temperature":  290.3959840746075,
+                    "material":  3.0058857364347421E+20,
+                    "jetEnergy":  1.3475297464388941E+31
+                },
+                {
+                    "dt":  1800,
+                    "a":  1.0008919342797171,
+                    "positionError":  4.4494021894856653E-06,
+                    "temperature":  290.39597108621672,
+                    "material":  3.0068827471300343E+20,
+                    "jetEnergy":  1.3479766972590667E+31
+                },
+                {
+                    "dt":  900,
+                    "a":  1.0008920086748041,
+                    "positionError":  8.89492635248397E-07,
+                    "temperature":  290.39596770740627,
+                    "material":  3.0071314889256776E+20,
+                    "jetEnergy":  1.3480882050944764E+31
+                },
+                {
+                    "dt":  450,
+                    "a":  1.0008920272633712,
+                    "positionError":  0,
+                    "temperature":  290.39596679237093,
+                    "material":  3.0071936436579828E+20,
+                    "jetEnergy":  1.3481160678386802E+31
+                }
+            ],
+    "note":  "Fit against a finite numerical reference biases the slope; Richardson differences are also reported. Thermal and resource observables are evaluated separately from orbital position."
+}

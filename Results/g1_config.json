@@ -1,0 +1,1 @@
+{"schema":1,"gate":"G1","days":30,"dt":[60,30],"distance_m":50000000,"tractorMass_kg":1.5913422543500884E+18,"bodies":["Sun","Earth","Tractor"],"exhaust_m_s":300000,"cant_degrees":25,"energySource":"explicit toy jet energy input; solar power not yet modeled","integrator":"Yoshida4 gravity, positive external half-kicks (forced order 2)"}

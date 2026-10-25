@@ -1,0 +1,18 @@
+{
+  "method": "Unity MCP execute_code inspections plus visual inspection of Game View screenshots",
+  "samplesChecked": 1220,
+  "minimumSeparationMetres": 49999999.992419004,
+  "maximumSeparationMetres": 50000000.00047565,
+  "baselineRoundTrips": 5,
+  "baselinePhysicsStateUnchanged": true,
+  "sameEarthInstance": true,
+  "earthMeshCount": 1,
+  "tractorActive": true,
+  "tractorMeshRendererCountIncludingLabel": 7,
+  "recordingError": null,
+  "closeViewTractorViewport": [0.57, 0.52, 2.56],
+  "closeViewRendererVisible": true,
+  "consoleErrorsReturned": 0,
+  "screenshots": ["Captures/Tractor-Inspection-Pair-Final.png", "Captures/Tractor-Inspection-Close-Final.png"],
+  "scope": "Viewer verification only; does not mark G4 or G8 accepted."
+}

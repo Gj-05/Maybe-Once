@@ -1,0 +1,16 @@
+X6.Yoshida4.h100 Analytic endpoint error: PASS; measured=0.0004086374130350796 AU, expected=0, error=0.0004086374130350796, tolerance=1, dt=315581.9601824108; Order fit sample, not a precision acceptance bound
+X6.Yoshida4.h200 Analytic endpoint error: PASS; measured=2.562026595836706E-05 AU, expected=0, error=2.562026595836706E-05, tolerance=1, dt=157790.9800912054; Order fit sample, not a precision acceptance bound
+X6.Yoshida4.difference200 h versus h/2 endpoint difference: PASS; measured=0.00038301714808081777 AU, expected=0, error=0.00038301714808081777, tolerance=1, dt=157790.9800912054; Convergence sample
+X6.Yoshida4.h400 Analytic endpoint error: PASS; measured=1.6024423543647646E-06 AU, expected=0, error=1.6024423543647646E-06, tolerance=1, dt=78895.4900456027; Order fit sample, not a precision acceptance bound
+X6.Yoshida4.difference400 h versus h/2 endpoint difference: PASS; measured=2.4017823604249305E-05 AU, expected=0, error=2.4017823604249305E-05, tolerance=1, dt=78895.4900456027; Convergence sample
+X6.Yoshida4.h800 Analytic endpoint error: PASS; measured=1.0017059648855532E-07 AU, expected=0, error=1.0017059648855532E-07, tolerance=1, dt=39447.74502280135; Order fit sample, not a precision acceptance bound
+X6.Yoshida4.difference800 h versus h/2 endpoint difference: PASS; measured=1.5022717578762818E-06 AU, expected=0, error=1.5022717578762818E-06, tolerance=1, dt=39447.74502280135; Convergence sample
+X6.Yoshida4 Observed log-log order: PASS; measured=3.9981380562450193 order, expected=4, error=0.0018619437549807216, tolerance=0.2, dt=0; 
+X6.VelocityVerlet.h100 Analytic endpoint error: PASS; measured=0.03262411752254607 AU, expected=0, error=0.03262411752254607, tolerance=1, dt=315581.9601824108; Order fit sample, not a precision acceptance bound
+X6.VelocityVerlet.h200 Analytic endpoint error: PASS; measured=0.008118830518607354 AU, expected=0, error=0.008118830518607354, tolerance=1, dt=157790.9800912054; Order fit sample, not a precision acceptance bound
+X6.VelocityVerlet.difference200 h versus h/2 endpoint difference: PASS; measured=0.024506464241130677 AU, expected=0, error=0.024506464241130677, tolerance=1, dt=157790.9800912054; Convergence sample
+X6.VelocityVerlet.h400 Analytic endpoint error: PASS; measured=0.0020273681692827335 AU, expected=0, error=0.0020273681692827335, tolerance=1, dt=78895.4900456027; Order fit sample, not a precision acceptance bound
+X6.VelocityVerlet.difference400 h versus h/2 endpoint difference: PASS; measured=0.006091480607351499 AU, expected=0, error=0.006091480607351499, tolerance=1, dt=78895.4900456027; Convergence sample
+X6.VelocityVerlet.h800 Analytic endpoint error: PASS; measured=0.0005066956086365386 AU, expected=0, error=0.0005066956086365386, tolerance=1, dt=39447.74502280135; Order fit sample, not a precision acceptance bound
+X6.VelocityVerlet.difference800 h versus h/2 endpoint difference: PASS; measured=0.0015206728453950504 AU, expected=0, error=0.0015206728453950504, tolerance=1, dt=39447.74502280135; Convergence sample
+X6.VelocityVerlet Observed log-log order: PASS; measured=2.0027691048360627 order, expected=2, error=0.0027691048360627413, tolerance=0.12, dt=0; 

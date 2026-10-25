@@ -1,0 +1,18 @@
+Ledger (SI; relative errors normalized by initial gross body scales)
+Name | mass kg | px,py,pz kg m/s | Lx,Ly,Lz kg m²/s | energy J
+EjectaSink | 2.4165050560461327E+18 | 1.4761756838020436E+23,-5.5943553274293065E+23,0 | 0,0,-8.752262135155014E+34 | 8.80821758144094E+28
+EnablerSource | -2.4165050560461327E+18 | 1.8186216740633713E+22,-6.881636980411897E+22,0 | 0,0,-1.076726146547258E+34 | 1.0911281266755715E+27
+DriveEnergySource | 0 | 0,0,0 | 0,0,0 | -1.0874272752207597E+29
+net momentum gained by Earth system vs momentum carried by ejecta
+Applied impulse magnitude 6.497625321718578E+23; reaction impulse magnitude 6.497625321718579E+23
+Max relative P=1.107384620005112E-14; L=3.852525009543249E-14; E=7.681677201154593E-14; force closure=3.0293195838320257E-16; reaction closure=4.0783463032758516E-16
+
+Fine-step:
+Ledger (SI; relative errors normalized by initial gross body scales)
+Name | mass kg | px,py,pz kg m/s | Lx,Ly,Lz kg m²/s | energy J
+EjectaSink | 2.4176481247900145E+18 | 1.476879543515917E+23,-5.597000467132191E+23,0 | 0,0,-8.756402344267395E+34 | 8.812383905057087E+28
+EnablerSource | -2.4176481247900145E+18 | 1.8194846459161781E+22,-6.884890668438318E+22,0 | 0,0,-1.0772353008149517E+34 | 1.0916491338339618E+27
+DriveEnergySource | 0 | 0,0,0 | 0,0,0 | -1.0879416561555066E+29
+net momentum gained by Earth system vs momentum carried by ejecta
+Applied impulse magnitude 6.500699119495082E+23; reaction impulse magnitude 6.500699119495082E+23
+Max relative P=1.944162893634556E-14; L=3.4163901028025036E-14; E=6.832993317740913E-14; force closure=2.7830927951848523E-16; reaction closure=4.081224383980345E-16
