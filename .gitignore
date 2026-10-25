@@ -47,3 +47,5 @@ Thumbs.db
 *.synctex.gz
 *.toc
 *.out
+
+/Technical_Report/
